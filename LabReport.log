@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.4)  4 DEC 2020 12:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.4)  4 DEC 2020 13:12
 entering extended mode
 **./LabReport.tex
 (LabReport.tex
@@ -665,24 +665,50 @@ used on input line 37.
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.42 
-      <./Section_Microscope/Figures/CondenserAndObjective.jpg>]) [14pdfTeX warn
-ing (ext4): destination with the same identifier (name{figure.16}) has been alr
-eady used, duplicate ignored
+      <./Section_Microscope/Figures/CondenserAndObjective.jpg>]
+<Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg, id=221, 6
+05.35838pt x 368.34387pt>
+File: Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg Graph
+ic file (type jpg)
+<use Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg>
+Package pdftex.def Info: Section_Microscope/Figures/Confocal_microscopy_Basic_p
+rinciple1.jpg  used on input line 54.
+(pdftex.def)             Requested size: 605.3569pt x 368.34296pt.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.16
+}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.22 \end{document}
-                    <./Section_Microscope/Figures/ReflectingMicroscope.jpeg>]
-(LabReport.aux)
+l.59 
+      <./Section_Microscope/Figures/ReflectingMicroscope.jpeg>]
+<Section_Microscope/Figures/EpiVsConfocal1.png, id=229, 588.69937pt x 292.09125
+pt>
+File: Section_Microscope/Figures/EpiVsConfocal1.png Graphic file (type png)
+<use Section_Microscope/Figures/EpiVsConfocal1.png>
+Package pdftex.def Info: Section_Microscope/Figures/EpiVsConfocal1.png  used on
+ input line 62.
+(pdftex.def)             Requested size: 588.69792pt x 292.09052pt.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.17
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.75 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.75 
+      <./Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg> <
+./Section_Microscope/Figures/EpiVsConfocal1.png>]) [16] (LabReport.aux)
 Package rerunfilecheck Info: File `LabReport.out' has not changed.
 (rerunfilecheck)             Checksum: 1A1B3B314A2939F50490DFB9FDD7B6F7;944.
 runsystem(del LabReport.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 9048 strings out of 479799
- 157478 string characters out of 2879559
- 503370 words of memory out of 3000000
- 25790 multiletter control sequences out of 15000+200000
+ 9066 strings out of 479799
+ 158226 string characters out of 2879559
+ 503688 words of memory out of 3000000
+ 25802 multiletter control sequences out of 15000+200000
  540182 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,9n,72p,398b,640s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -698,9 +724,9 @@ c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on LabReport.pdf (15 pages, 1270451 bytes).
+Output written on LabReport.pdf (17 pages, 1880795 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 303 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 

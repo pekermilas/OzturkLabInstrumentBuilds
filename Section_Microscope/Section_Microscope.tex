@@ -42,11 +42,35 @@ design optical system with the ability to finely couple with the existing micros
 
 \subsection{Confocal Systems Overview}
 A \textbf{confocal system} is an imaging system that utilizes a spatial filter
-for strictly matching the illumination volume with the observation volume. 
-Because of very likely chromatic aberrations\footnote{\url{https://www.microscopyu.com/tutorials/chromatic}}
-through the imaging components, usually illumination is done by a single color laser 
-source such as a laser.
+(or simply a pinhole) before the imaging component for strictly matching the illumination 
+volume with the observation volume as it is shown in Figure\ref{fig:WidefieldVsConfocal}. Because 
+of very likely chromatic aberrations \footnote{\url{https://www.microscopyu.com/tutorials/chromatic}} 
+through the imaging components, usually illumination is done by a single color light source such as 
+a laser. The pinhole suppresses the out-of-excitation volume light dramatically, so it increases 
+the resolution of imaging system, Figure\ref{fig:WidefieldVsConfocalResolution}. 
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[angle=0,origin=c,width = 1.0\linewidth]{Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg}
+	\caption{Simplified structure of a typical widefield (\textbf{left}) and a confocal (\textbf{right})
+		imaging system  with spatial filter. ADD REF-FOOTNOTE HERE!!!}
+	\label{fig:WidefieldVsConfocal}
+\end{figure}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[angle=0,origin=c,width = 1.0\linewidth]{Section_Microscope/Figures/EpiVsConfocal1.png}
+	\caption{Imaging of HeLa cells with a typical widefield (\textbf{left}) and with a confocal 
+		(\textbf{right}) imaging system. ADD REF-FOOTNOTE HERE!!!}
+	\label{fig:WidefieldVsConfocalResolution}
+\end{figure}
+
+Microscope manufacturers very frequently incorporate additional openings (called \textbf{microscope ports})
+on sides, front and even at the bottom of microscope bodies which allows the operator to 
+couple additional imaging and illumination systems into the microscope. Although this is 
+a very common practice in the case of transmission microscopes (upright and inverted as well),
+reflecting microscopes usually don't have these additional ports, Figure\ref{fig:ReflectingMicroscope}. 
+Because of missing ports, turning a reflecting microscope is considerably harder into 
+a confocal system compared to transmission microscopes. 
 
 \subsection{Our Current PL Setup}
