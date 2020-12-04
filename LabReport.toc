@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Self-recovering Wired Ethernet Connection}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Preparation and Software Installations}{2}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Chrome Installation}{2}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Anaconda Installation}{2}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Selenium Library Installation}{3}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}Selenium WebDriver Installation}{4}{subsubsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.2}Implementation-Coding}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Implementation-Automatization}{7}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Photoluminescence (PL) Setup}{11}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Reflecting Light Microscopes Overview}{11}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Confocal Systems Overview}{13}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Our Current PL Setup}{13}{subsection.2.3}%
