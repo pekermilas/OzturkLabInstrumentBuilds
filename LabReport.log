@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.4)  4 DEC 2020 13:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.4)  7 DEC 2020 12:03
 entering extended mode
 **./LabReport.tex
 (LabReport.tex
@@ -698,17 +698,44 @@ l.75
                                                   
 l.75 
       <./Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg> <
-./Section_Microscope/Figures/EpiVsConfocal1.png>]) [16] (LabReport.aux)
+./Section_Microscope/Figures/EpiVsConfocal1.png>]
+<Section_Microscope/Figures/PL_Setup_Parts.png, id=239, 768.62157pt x 579.66562
+pt>
+File: Section_Microscope/Figures/PL_Setup_Parts.png Graphic file (type png)
+<use Section_Microscope/Figures/PL_Setup_Parts.png>
+Package pdftex.def Info: Section_Microscope/Figures/PL_Setup_Parts.png  used on
+ input line 91.
+(pdftex.def)             Requested size: 768.61969pt x 579.6642pt.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.19
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.99 
+      <./Section_Microscope/Figures/PL_Setup_Parts.png>]
+<Section_Microscope/Figures/PL_Setup_Zones.png, id=248, 786.68906pt x 589.4522p
+t>
+File: Section_Microscope/Figures/PL_Setup_Zones.png Graphic file (type png)
+<use Section_Microscope/Figures/PL_Setup_Zones.png>
+Package pdftex.def Info: Section_Microscope/Figures/PL_Setup_Zones.png  used on
+ input line 102.
+(pdftex.def)             Requested size: 786.68713pt x 589.45076pt.
+) [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+0}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.22 \end{document}
+                    <./Section_Microscope/Figures/PL_Setup_Zones.png>]
+(LabReport.aux)
 Package rerunfilecheck Info: File `LabReport.out' has not changed.
-(rerunfilecheck)             Checksum: 1A1B3B314A2939F50490DFB9FDD7B6F7;944.
+(rerunfilecheck)             Checksum: FE190B0D2D6362C57C9CE41E952A04B2;980.
 runsystem(del LabReport.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 9066 strings out of 479799
- 158226 string characters out of 2879559
- 503688 words of memory out of 3000000
- 25802 multiletter control sequences out of 15000+200000
+ 9084 strings out of 479799
+ 158863 string characters out of 2879559
+ 503823 words of memory out of 3000000
+ 25814 multiletter control sequences out of 15000+200000
  540182 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,9n,72p,398b,640s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -724,9 +751,9 @@ c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on LabReport.pdf (17 pages, 1880795 bytes).
+Output written on LabReport.pdf (18 pages, 2004232 bytes).
 PDF statistics:
- 303 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 

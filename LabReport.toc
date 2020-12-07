@@ -9,4 +9,4 @@
 \contentsline {section}{\numberline {2}Photoluminescence (PL) Setup}{12}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Reflecting Light Microscopes Overview}{12}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Confocal Systems Overview}{14}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Our Current PL Setup}{16}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Confocal Reflecting Light Microscope for PL Measurements}{16}{subsection.2.3}%
