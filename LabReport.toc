@@ -10,3 +10,5 @@
 \contentsline {subsection}{\numberline {2.1}Reflecting Light Microscopes Overview}{12}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Confocal Systems Overview}{14}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Confocal Reflecting Light Microscope for PL Measurements}{16}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Excitation, Zone 1}{18}{subsubsection.2.3.1}%
+\contentsline {paragraph}{\numberline {2.3.1.1}Direct coupling between Excitation and Objective}{18}{paragraph.2.3.1.1}%

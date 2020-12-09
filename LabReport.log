@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.4)  8 DEC 2020 11:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.4)  9 DEC 2020 11:32
 entering extended mode
 **./LabReport.tex
 (LabReport.tex
@@ -304,6 +304,18 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 runsystem(if not exist _minted-LabReport mkdir _minted-LabReport)...executed.
 
 
+(C:\Users\admin\AppData\Roaming\MiKTeX\tex/generic/soul\soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks22
+\SOUL@lasttoken=\toks23
+\SOUL@cmds=\toks24
+\SOUL@buffer=\toks25
+\SOUL@token=\toks26
+\SOUL@spaceskip=\skip55
+\SOUL@ttwidth=\dimen162
+\SOUL@uldp=\dimen163
+\SOUL@ulht=\dimen164
+)
 ("C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -339,23 +351,23 @@ LaTeX Warning: Unused global option(s):
 (LabReport.aux)
 \openout1 = `LabReport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-Package hyperref Info: Link coloring OFF on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+Package hyperref Info: Link coloring OFF on input line 10.
  ("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -368,9 +380,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count291
 )
-LaTeX Info: Redefining \ref on input line 8.
-LaTeX Info: Redefining \pageref on input line 8.
-LaTeX Info: Redefining \nameref on input line 8.
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
  (LabReport.out) (LabReport.out)
 \@outlinefile=\write5
 \openout5 = `LabReport.out'.
@@ -379,27 +391,27 @@ LaTeX Info: Redefining \nameref on input line 8.
 ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count292
-\scratchdimen=\dimen162
+\scratchdimen=\dimen165
 \scratchbox=\box57
 \nofMPsegments=\count293
 \nofMParguments=\count294
-\everyMPshowfont=\toks22
+\everyMPshowfont=\toks27
 \MPscratchCnt=\count295
-\MPscratchDim=\dimen163
+\MPscratchDim=\dimen166
 \MPnumerator=\count296
 \makeMPintoPDFobject=\count297
-\everyMPtoPDFconversion=\toks23
+\everyMPtoPDFconversion=\toks28
 ) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
+(Font)              <12> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
+(Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
+(Font)              <6> on input line 14.
  [1
 
 {C:/Users/admin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (LabReport.toc
@@ -415,16 +427,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 \newpage
+l.16 \newpage
               [1] (Section_Ethernet/Section_Ethernet.tex
-<Section_Ethernet/Figures/Anaconda_PATH.png, id=82, 668.4975pt x 531.9875pt>
+<Section_Ethernet/Figures/Anaconda_PATH.png, id=87, 668.4975pt x 531.9875pt>
 File: Section_Ethernet/Figures/Anaconda_PATH.png Graphic file (type png)
 <use Section_Ethernet/Figures/Anaconda_PATH.png>
 Package pdftex.def Info: Section_Ethernet/Figures/Anaconda_PATH.png  used on in
 put line 25.
 (pdftex.def)             Requested size: 668.49586pt x 531.9862pt.
  [2]
-<Section_Ethernet/Figures/anaconda-prompt.jpg, id=95, 788.9475pt x 644.4075pt>
+<Section_Ethernet/Figures/anaconda-prompt.jpg, id=100, 788.9475pt x 644.4075pt>
+
 File: Section_Ethernet/Figures/anaconda-prompt.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/anaconda-prompt.jpg>
 Package pdftex.def Info: Section_Ethernet/Figures/anaconda-prompt.jpg  used on 
@@ -436,14 +449,14 @@ input line 40.
                                                   
 l.44 
       <./Section_Ethernet/Figures/Anaconda_PATH.png (PNG copy)>]
-<Section_Ethernet/Figures/install-selenium.jpg, id=102, 984.67876pt x 516.93124
+<Section_Ethernet/Figures/install-selenium.jpg, id=107, 984.67876pt x 516.93124
 pt>
 File: Section_Ethernet/Figures/install-selenium.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/install-selenium.jpg>
 Package pdftex.def Info: Section_Ethernet/Figures/install-selenium.jpg  used on
  input line 50.
 (pdftex.def)             Requested size: 984.67635pt x 516.92998pt.
-<Section_Ethernet/Figures/confirm-screen.jpg, id=104, 966.61125pt x 201.75375pt
+<Section_Ethernet/Figures/confirm-screen.jpg, id=109, 966.61125pt x 201.75375pt
 >
 File: Section_Ethernet/Figures/confirm-screen.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/confirm-screen.jpg>
@@ -462,14 +475,14 @@ l.65
 l.65 
       <./Section_Ethernet/Figures/anaconda-prompt.jpg> <./Section_Ethernet/Figu
 res/install-selenium.jpg>]
-<Section_Ethernet/Figures/WebDriverDownload.png, id=113, 1371.1225pt x 770.88pt
+<Section_Ethernet/Figures/WebDriverDownload.png, id=118, 1371.1225pt x 770.88pt
 >
 File: Section_Ethernet/Figures/WebDriverDownload.png Graphic file (type png)
 <use Section_Ethernet/Figures/WebDriverDownload.png>
 Package pdftex.def Info: Section_Ethernet/Figures/WebDriverDownload.png  used o
 n input line 73.
 (pdftex.def)             Requested size: 1371.11916pt x 770.87813pt.
-<Section_Ethernet/Figures/PickWebDriver.png, id=115, 1371.1225pt x 770.88pt>
+<Section_Ethernet/Figures/PickWebDriver.png, id=120, 1371.1225pt x 770.88pt>
 File: Section_Ethernet/Figures/PickWebDriver.png Graphic file (type png)
 <use Section_Ethernet/Figures/PickWebDriver.png>
 Package pdftex.def Info: Section_Ethernet/Figures/PickWebDriver.png  used on in
@@ -537,7 +550,7 @@ it[])|
  []
 
 )
-<Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg, id=138, 1050.92625pt x
+<Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg, id=143, 1050.92625pt x
  602.25pt>
 File: Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg Graphic file (type
  jpg)
@@ -546,13 +559,13 @@ Package pdftex.def Info: Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg
   used on input line 164.
 (pdftex.def)             Requested size: 1050.9237pt x 602.24852pt.
  [7]
-<Section_Ethernet/Figures/create-task.jpg, id=149, 1266.7325pt x 736.7525pt>
+<Section_Ethernet/Figures/create-task.jpg, id=154, 1266.7325pt x 736.7525pt>
 File: Section_Ethernet/Figures/create-task.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/create-task.jpg>
 Package pdftex.def Info: Section_Ethernet/Figures/create-task.jpg  used on inpu
 t line 173.
 (pdftex.def)             Requested size: 1266.72942pt x 736.7507pt.
-<Section_Ethernet/Figures/TaskCreationName.png, id=151, 473.51906pt x 359.84438
+<Section_Ethernet/Figures/TaskCreationName.png, id=156, 473.51906pt x 359.84438
 pt>
 File: Section_Ethernet/Figures/TaskCreationName.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskCreationName.png>
@@ -571,14 +584,14 @@ l.187
 l.187 
        <./Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg> <./Section_Et
 hernet/Figures/create-task.jpg>]
-<Section_Ethernet/Figures/TaskCreationTrigger.png, id=163, 752.8125pt x 469.755
+<Section_Ethernet/Figures/TaskCreationTrigger.png, id=168, 752.8125pt x 469.755
 pt>
 File: Section_Ethernet/Figures/TaskCreationTrigger.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskCreationTrigger.png>
 Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationTrigger.png  used
  on input line 195.
 (pdftex.def)             Requested size: 752.81065pt x 469.75386pt.
-<Section_Ethernet/Figures/TaskCreationAction.png, id=165, 692.5875pt x 462.2268
+<Section_Ethernet/Figures/TaskCreationAction.png, id=170, 692.5875pt x 462.2268
 7pt>
 File: Section_Ethernet/Figures/TaskCreationAction.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskCreationAction.png>
@@ -597,7 +610,7 @@ l.209 	\end{figure}
 l.209 	\end{figure}
                     <./Section_Ethernet/Figures/TaskCreationName.png> <./Sectio
 n_Ethernet/Figures/TaskCreationTrigger.png>]
-<Section_Ethernet/Figures/TaskCreationConditions.png, id=178, 484.05844pt x 372
+<Section_Ethernet/Figures/TaskCreationConditions.png, id=183, 484.05844pt x 372
 .64218pt>
 File: Section_Ethernet/Figures/TaskCreationConditions.png Graphic file (type pn
 g)
@@ -611,7 +624,7 @@ sed on input line 217.
                                                   
 l.221 
        <./Section_Ethernet/Figures/TaskCreationAction.png>]
-<Section_Ethernet/Figures/TaskCreationSettings.png, id=188, 487.8225pt x 371.88
+<Section_Ethernet/Figures/TaskCreationSettings.png, id=193, 487.8225pt x 371.88
 937pt>
 File: Section_Ethernet/Figures/TaskCreationSettings.png Graphic file (type png)
 
@@ -619,7 +632,7 @@ File: Section_Ethernet/Figures/TaskCreationSettings.png Graphic file (type png)
 Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationSettings.png  use
 d on input line 226.
 (pdftex.def)             Requested size: 487.8213pt x 371.88846pt.
-<Section_Ethernet/Figures/TaskRun.png, id=190, 1264.725pt x 790.45313pt>
+<Section_Ethernet/Figures/TaskRun.png, id=195, 1264.725pt x 790.45313pt>
 File: Section_Ethernet/Figures/TaskRun.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskRun.png>
 Package pdftex.def Info: Section_Ethernet/Figures/TaskRun.png  used on input li
@@ -638,7 +651,7 @@ l.240 	\end{figure}
                     <./Section_Ethernet/Figures/TaskCreationConditions.png> <./
 Section_Ethernet/Figures/TaskCreationSettings.png>])
 (Section_Microscope/Section_Microscope.tex
-<Section_Microscope/Figures/CondenserAndObjective.jpg, id=201, 742.775pt x 507.
+<Section_Microscope/Figures/CondenserAndObjective.jpg, id=206, 742.775pt x 507.
 8975pt>
 File: Section_Microscope/Figures/CondenserAndObjective.jpg Graphic file (type j
 pg)
@@ -652,7 +665,7 @@ used on input line 21.
                                                   
 l.26 
       <./Section_Ethernet/Figures/TaskRun.png>]
-<Section_Microscope/Figures/ReflectingMicroscope.jpeg, id=211, 513.92pt x 380.4
+<Section_Microscope/Figures/ReflectingMicroscope.jpeg, id=216, 513.92pt x 380.4
 2125pt>
 File: Section_Microscope/Figures/ReflectingMicroscope.jpeg Graphic file (type j
 pg)
@@ -666,7 +679,7 @@ used on input line 37.
                                                   
 l.42 
       <./Section_Microscope/Figures/CondenserAndObjective.jpg>]
-<Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg, id=221, 6
+<Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg, id=226, 6
 05.35838pt x 368.34387pt>
 File: Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg Graph
 ic file (type jpg)
@@ -680,7 +693,7 @@ rinciple1.jpg  used on input line 54.
                                                   
 l.59 
       <./Section_Microscope/Figures/ReflectingMicroscope.jpeg>]
-<Section_Microscope/Figures/EpiVsConfocal1.png, id=229, 588.69937pt x 292.09125
+<Section_Microscope/Figures/EpiVsConfocal1.png, id=234, 588.69937pt x 292.09125
 pt>
 File: Section_Microscope/Figures/EpiVsConfocal1.png Graphic file (type png)
 <use Section_Microscope/Figures/EpiVsConfocal1.png>
@@ -699,7 +712,7 @@ l.75
 l.75 
       <./Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg> <
 ./Section_Microscope/Figures/EpiVsConfocal1.png>]
-<Section_Microscope/Figures/PL_Setup_Parts.png, id=239, 768.62157pt x 579.66562
+<Section_Microscope/Figures/PL_Setup_Parts.png, id=244, 768.62157pt x 579.66562
 pt>
 File: Section_Microscope/Figures/PL_Setup_Parts.png Graphic file (type png)
 <use Section_Microscope/Figures/PL_Setup_Parts.png>
@@ -712,7 +725,7 @@ Package pdftex.def Info: Section_Microscope/Figures/PL_Setup_Parts.png  used on
                                                   
 l.99 
       <./Section_Microscope/Figures/PL_Setup_Parts.png>]
-<Section_Microscope/Figures/PL_Setup_Zones.png, id=248, 786.68906pt x 589.4522p
+<Section_Microscope/Figures/PL_Setup_Zones.png, id=253, 786.68906pt x 589.4522p
 t>
 File: Section_Microscope/Figures/PL_Setup_Zones.png Graphic file (type png)
 <use Section_Microscope/Figures/PL_Setup_Zones.png>
@@ -727,16 +740,16 @@ l.132 \end{enumerate}
                       <./Section_Microscope/Figures/PL_Setup_Zones.png>])
 [18] (LabReport.aux)
 Package rerunfilecheck Info: File `LabReport.out' has not changed.
-(rerunfilecheck)             Checksum: FE190B0D2D6362C57C9CE41E952A04B2;980.
+(rerunfilecheck)             Checksum: A0BE9F9F8101345CE9636847D48CC1B0;1058.
 runsystem(del LabReport.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 9089 strings out of 479799
- 158898 string characters out of 2879559
- 503823 words of memory out of 3000000
- 25814 multiletter control sequences out of 15000+200000
- 540182 words of font info for 47 fonts, out of 3000000 for 9000
+ 9268 strings out of 479799
+ 161177 string characters out of 2879559
+ 513362 words of memory out of 3000000
+ 25983 multiletter control sequences out of 15000+200000
+ 540495 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,9n,72p,398b,640s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
@@ -751,9 +764,9 @@ c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on LabReport.pdf (19 pages, 2008589 bytes).
+Output written on LabReport.pdf (19 pages, 2013524 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
