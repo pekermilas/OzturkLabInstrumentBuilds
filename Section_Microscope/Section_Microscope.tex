@@ -40,14 +40,14 @@ design optical system with the ability to finely couple with the existing micros
 	\label{fig:ReflectingMicroscope}
 \end{figure}
 
-\subsection{Confocal Systems Overview}
+\subsection{Confocal Systems Overview}\label{sec:confocalsystems}
 A \textbf{confocal system} is an imaging system that utilizes a spatial filter
 (or simply a pinhole) before the imaging component for strictly matching the illumination 
 volume with the observation volume as it is shown in Figure\ref{fig:WidefieldVsConfocal}. Because 
 of very likely chromatic aberrations \footnote{\url{https://www.microscopyu.com/tutorials/chromatic}} 
 through the imaging components, usually illumination is done by a single color light source such as 
 a laser. The pinhole suppresses the out-of-excitation volume light dramatically, so it increases 
-the resolution of imaging system, Figure\ref{fig:WidefieldVsConfocalResolution}. 
+the resolution of imaging system, Figure\ref{fig:WidefieldVsConfocalResolution}. REF HERE!!!!
 
 \begin{figure}[H]
 	\centering
@@ -142,21 +142,44 @@ In terms of the structure, this zone directly couples into Objective (Zone 4) an
 into Emission (Zone 2). In terms of the alignment, it directly couples into Brightfield (Zone 3).
 These couplings and the required matching conditions are as following;
 
-\paragraph{Direct coupling between Excitation and Objective}\mbox{}\\
-Three essential \textbf{optical design rules} create this coupling;
+\paragraph{Direct structural coupling between Excitation and Objective Zones}\mbox{}\\
+This coupling is dictated by the three essential \textbf{optical design rules};
 
 \begin{enumerate}
 	\item \ul{Excitation light going into the Objective has to be collimated}, so it should not be
 	converging or diverging in free space for a long enough distance. On the other hand, the level of 
 	collimation is very frequently not perfect, because of the real/non-ideal objective lenses.
+	To address this we placed a telescope in the path of excitation light as shown in the Figure
+	\ref{fig:ConfocalReflectingMicroscopeFull}. In addition, the first lens in the telescope is 
+	positioned on a XY-stage to finely tune the convergence/divergence of the excitation light.
 	
 	\item \ul{Propagation direction of the incoming light to the objective lens has to be 
 	parallel with the surface normal of the objective lens}. A well aligned excitation beam 
 	removes undesired distortions in the structure of focused light after the objective lens.
+	This is addressed by introducing two 1" mirrors to the light path right before the excitation-
+	cleanup filter. As it is shown in the Figure\ref{fig:ConfocalReflectingMicroscopeFull},
+	the mirror closest to the filter is responsible for angular change while the one before
+	that mirror is responsible for translation of the excitation beam, both relative to the
+	objective lens' surface normal.
 	
 	\item \ul{The ratio of the diameter of excitation light and the diameter of back-aperture of the 
 	objective lens (\textbf{aperture filling ratio}) has to be known and fixed to a value} 
-	depending on the experimental needs (i.e. tight focus, scanning beam, etc.).
+	depending on the experimental needs (i.e. tight focus, scanning beam, etc.). previously mentioned
+	telescope not only sets the angular dispersion of the laser but it also adjusted the beam diameter.
+	By using a ~200mm focal lens in the telescope, we set the beam diameter slightly larger than 
+	the back-aperture of the objective lens.
 \end{enumerate}
 
-As it is shown in the Figure\ref{fig:ConfocalReflectingMicroscopeFull}
+\paragraph{Indirect structural coupling between Excitation and Emission Zones}\mbox{}\\
+This coupling is dictated by the confocality of the system. To be more precise, while excitation
+zone is describing the input excitation beam, it also defines the distance and size of the
+focused beam on the front-focal plane of the objective lens. As it was indicated in Section
+\ref{sec:confocalsystems}, spatial filter (pinhole) position and its size has to be adjusted
+according to the focus position and size. 
+
+\paragraph{Direct alignment coupling between Excitation and Brightfield Zones}\mbox{}\\
+In the case of a conventional microscope, optics in the brightfield zone need to be aligned
+prior to sending additional input light. This is called K\"{o}hler illumination
+\footnote{\url{https://www.olympus-lifescience.com/en/microscope-resource/primer/anatomy/kohler/}}
+and it is missing in our microscope. Therefore brightfield for imaging the sample surface needs 
+to be set according to the focus position of excitation light. 
