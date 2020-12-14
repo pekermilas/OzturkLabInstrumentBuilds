@@ -181,5 +181,40 @@ according to the focus position and size.
 In the case of a conventional microscope, optics in the brightfield zone need to be aligned
 prior to sending additional input light. This is called K\"{o}hler illumination
 \footnote{\url{https://www.olympus-lifescience.com/en/microscope-resource/primer/anatomy/kohler/}}
-and it is missing in our microscope. Therefore brightfield for imaging the sample surface needs 
-to be set according to the focus position of excitation light. 
+which is not fully implemented in our microscope. Instead we illuminate the sample surface with
+a ring of LEDs around the objective lens housing and collect the reflecting light either with
+a camera or with an additional long focal length lens. Purpose of the long focal length lens is 
+for the adjustment of field of view (FOV\footnote{\url{https://www.edmundoptics.com/knowledge-center/
+		application-notes/imaging/understanding-focal-length-and-field-of-view/}}). Therefore
+before adjusting the focal position of the laser in the front focal plane of the objective lens,
+we try to see the image of the sample surface. Once a clear image is observed, we adjust the 
+convergence/divergence of the laser beam to place the laser focus on to the image plane.
+
+\subsubsection{Emission, Zone 2}
+In terms of the structure, this zone directly couples into Objective (Zone 4) and indirectly couples 
+into Excitation (Zone 1). In terms of the alignment, it directly couples into Brightfield (Zone 3).
+These couplings and the required matching conditions are as following;
+
+\paragraph{Direct structural coupling between Emission and Objective Zones}\mbox{}\\
+This coupling is dictated by the objective lens being non-ideal or real. [ADD A PICTURE!!!].
+Even though microscope objectives are called infinity-corrected\footnote{\url{https://
+		www.olympus-ims.com/en/microscope/terms/feature15/}}, like all real lenses they have 
+two focal planes namely back (BFP) and front (FFL) focal planes \footnote{\url{https://
+		en.wikipedia.org/wiki/Cardinal_point_(optics)}}. A confocal system uses BFL of the 
+objective lens or its image to spatially filter the emission. In our system the fiber optics 
+cable is used to spatially filtering the emission at a proper position where there is the first
+image of BFL is formed.
+
+\paragraph{Indirect structural coupling between Emission and Eexcitation Zones}\mbox{}\\
+Although this coupling is explained in Excitation section, it is worth mentioned that apart
+from the coupling through objective lens' focal plane positions Excitation Zone sets the 
+operable size range for spatial filter by defining the excitation beam profile. The coupling
+considered to be crucial for the resolution of the whole microscope, so a very detailed work
+is provided in literature.[REF HERE!!!]
+
+\paragraph{Indirect alignment coupling between Emission and Brightfield Zones}\mbox{}\\
+Although this coupling is explained in Excitation section, it is worth mentioned that apart
+from the coupling through objective lens' focal plane positions Excitation Zone sets the 
+operable size range for spatial filter by defining the excitation beam profile. The coupling
+considered to be crucial for the resolution of the whole microscope, so a very detailed work
+is provided in literature.[REF HERE!!!]

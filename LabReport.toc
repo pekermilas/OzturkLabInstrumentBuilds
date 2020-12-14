@@ -14,3 +14,7 @@
 \contentsline {paragraph}{\numberline {2.3.1.1}Direct structural coupling between Excitation and Objective Zones}{18}{paragraph.2.3.1.1}%
 \contentsline {paragraph}{\numberline {2.3.1.2}Indirect structural coupling between Excitation and Emission Zones}{19}{paragraph.2.3.1.2}%
 \contentsline {paragraph}{\numberline {2.3.1.3}Direct alignment coupling between Excitation and Brightfield Zones}{19}{paragraph.2.3.1.3}%
+\contentsline {subsubsection}{\numberline {2.3.2}Emission, Zone 2}{19}{subsubsection.2.3.2}%
+\contentsline {paragraph}{\numberline {2.3.2.1}Direct structural coupling between Emission and Objective Zones}{19}{paragraph.2.3.2.1}%
+\contentsline {paragraph}{\numberline {2.3.2.2}Indirect structural coupling between Emission and Eexcitation Zones}{19}{paragraph.2.3.2.2}%
+\contentsline {paragraph}{\numberline {2.3.2.3}Indirect alignment coupling between Emission and Brightfield Zones}{20}{paragraph.2.3.2.3}%
