@@ -18,3 +18,6 @@
 \contentsline {paragraph}{\numberline {2.3.2.1}Direct structural coupling between Emission and Objective Zones}{19}{paragraph.2.3.2.1}%
 \contentsline {paragraph}{\numberline {2.3.2.2}Indirect structural coupling between Emission and Eexcitation Zones}{19}{paragraph.2.3.2.2}%
 \contentsline {paragraph}{\numberline {2.3.2.3}Indirect alignment coupling between Emission and Brightfield Zones}{20}{paragraph.2.3.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.3}Brightfield, Zone 3}{20}{subsubsection.2.3.3}%
+\contentsline {paragraph}{\numberline {2.3.3.1}Direct structural coupling between Brightfield and Objective Zones}{20}{paragraph.2.3.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.4}Objective, Zone 4}{21}{subsubsection.2.3.4}%

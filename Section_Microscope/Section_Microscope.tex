@@ -137,7 +137,7 @@ piece that all other zones required to be matched, there are matching requiremen
 zones too. As a result, proper description of the microscope require deeper understanding of all
 zones.
 
-\subsubsection{Excitation, Zone 1}
+\subsubsection{Excitation, Zone 1}\label{subsubsec:excitationCouplings}
 In terms of the structure, this zone directly couples into Objective (Zone 4) and indirectly couples 
 into Emission (Zone 2). In terms of the alignment, it directly couples into Brightfield (Zone 3).
 These couplings and the required matching conditions are as following;
@@ -190,7 +190,7 @@ before adjusting the focal position of the laser in the front focal plane of the
 we try to see the image of the sample surface. Once a clear image is observed, we adjust the 
 convergence/divergence of the laser beam to place the laser focus on to the image plane.
 
-\subsubsection{Emission, Zone 2}
+\subsubsection{Emission, Zone 2}\label{subsubsec:emissionCouplings}
 In terms of the structure, this zone directly couples into Objective (Zone 4) and indirectly couples 
 into Excitation (Zone 1). In terms of the alignment, it directly couples into Brightfield (Zone 3).
 These couplings and the required matching conditions are as following;
@@ -218,3 +218,40 @@ from the coupling through objective lens' focal plane positions Excitation Zone 
 operable size range for spatial filter by defining the excitation beam profile. The coupling
 considered to be crucial for the resolution of the whole microscope, so a very detailed work
 is provided in literature.[REF HERE!!!]
+
+\subsubsection{Brightfield, Zone 3}\label{subsubsec:brightfieldCouplings}
+Given that this zone's couplings with Excitation and Emission zones are already presented in
+sections \ref{subsubsec:excitationCouplings} and \ref{subsubsec:emissionCouplings}, its
+remaining coupling is with the Objective (Zone 4). 
+
+\paragraph{Direct structural coupling between Brightfield and Objective Zones}\mbox{}\\
+A proper brightfield image of the sample plane means that an image formed on the CCD camera
+chip with minimal optical aberrations\footnote{\url{https://www.edmundoptics.com/knowledge-center/
+		application-notes/optics/comparison-of-optical-aberrations/}}. Among which chromatic aberration, 
+field curvature, distortion, and defocus are the ones frequently observed in homemade systems.
+
+\begin{itemize}
+	\item There is not a perfect solution for chromatic aberration because it is related with 
+	the objective lens' response to excitation and emission wavelengths. Objective lenses are 
+	quite a bit expensive instruments and it is highly unlikely that a research group can
+	effort purchasing unique objective lenses for individual experiments. As a result, a 
+	partial solution for chromatic aberration is  to image the excitation light focus and
+	the sample surface within the range of operable wavelengths.
+
+	\item Defocus and distortion are the ones related with the relative axial positions of 
+	the objective lens, camera lens, and the camera. These aberrations are required to be 
+	corrected by altering lens and camera positions in an ad-hoc fashion on the light 
+	propagation axis. It is also useful to have an imaging lens of similar focal length 
+	to tube lens of objective lens was designed for.
+
+	\item Field curvature occurs by the mismatch between objective lens and the remaining
+	lens(es) in the imaging pathway. It is highly likely that the image forming lens for
+	camera is not exactly same as actual tube lens in a commercial microscope. As a result
+	it is very likely that outer edges of the image will be distorted in a homemade system.
+	As long as the desired portion of the image around center is good enough, there is no
+	need to put extra effort to find an exact copy of tube lens.
+\end{itemize}
+
+\subsubsection{Objective, Zone 4}
+Coupling of Objective (Zone 4) with other zones are covered in sections \ref{subsubsec:excitationCouplings},
+\ref{subsubsec:emissionCouplings}, and \ref{subsubsec:brightfieldCouplings}. 
