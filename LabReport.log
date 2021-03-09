@@ -1,41 +1,41 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.4)  15 DEC 2020 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.9)  9 MAR 2021 11:36
 entering extended mode
 **./LabReport.tex
 (LabReport.tex
-LaTeX2e <2020-10-01> patch level 2
-L3 programming layer <2020-10-27> xparse <2020-03-03>
-("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> xparse <2020-03-03>
+(C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-("C:\Program Files\MiKTeX\tex/latex/base\size10.clo"
+(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count175
-\c@section=\count176
-\c@subsection=\count177
-\c@subsubsection=\count178
-\c@paragraph=\count179
-\c@subparagraph=\count180
-\c@figure=\count181
-\c@table=\count182
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-("C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty"
+(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 )
-("C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty"
-Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
 
 (C:\Users\admin\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
-("C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty"
+(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
@@ -46,7 +46,7 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
@@ -72,13 +72,17 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen139
-\Hy@linkcounter=\count183
-\Hy@pagecounter=\count184
+\Hy@linkcounter=\count187
+\Hy@pagecounter=\count188
 
-("C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def"
-File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
 )
 (C:\Users\admin\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
@@ -86,21 +90,27 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Users\admin\AppData\Roaming\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count185
-Package hyperref Info: Hyper figures OFF on input line 4464.
-Package hyperref Info: Link nesting OFF on input line 4469.
-Package hyperref Info: Hyper index ON on input line 4472.
-Package hyperref Info: Plain pages OFF on input line 4479.
-Package hyperref Info: Backreferencing OFF on input line 4484.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count186
+\Hy@SavedSpaceFactor=\count189
 
-("C:\Program Files\MiKTeX\tex/latex/url\url.sty"
+(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count190
+
+(C:\Program Files\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5076.
+LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen140
 
 (C:\Users\admin\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
@@ -110,40 +120,40 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count187
+\Fld@menulength=\count191
 \Field@Width=\dimen141
 \Fld@charsize=\dimen142
-Package hyperref Info: Hyper figures OFF on input line 6347.
-Package hyperref Info: Link nesting OFF on input line 6352.
-Package hyperref Info: Hyper index ON on input line 6355.
-Package hyperref Info: backreferencing OFF on input line 6362.
-Package hyperref Info: Link coloring OFF on input line 6367.
-Package hyperref Info: Link coloring with OCG OFF on input line 6372.
-Package hyperref Info: PDF/A mode OFF on input line 6377.
-LaTeX Info: Redefining \ref on input line 6417.
-LaTeX Info: Redefining \pageref on input line 6421.
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
 
-("C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty"
+(C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count188
-\c@Item=\count189
-\c@Hfootnote=\count190
+\Hy@abspage=\count192
+\c@Item=\count193
+\c@Hfootnote=\count194
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def"
-File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
 
-("C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty"
+(C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count191
-\c@bookmark@seq@number=\count192
+\Fld@listcount=\count195
+\c@bookmark@seq@number=\count196
 
 (C:\Users\admin\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.
 sty
@@ -159,27 +169,27 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip49
 ) (C:\Users\admin\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count193
+\c@float@type=\count197
 \float@exts=\toks18
 \float@box=\box47
 \@float@everytoks=\toks19
 \@floatcapt=\box48
 )
-("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen143
@@ -191,20 +201,20 @@ Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
 (C:\Users\admin\AppData\Roaming\MiKTeX\tex/latex/fvextra\fvextra.sty
 Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
 
-("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
+(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty"
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count194
+\etb@tempcnta=\count198
 )
 (C:\Users\admin\AppData\Roaming\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
-Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count195
+Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count199
 \FV@InFile=\read2
 \FV@TabBox=\box49
-\c@FancyVerbLine=\count196
-\FV@StepNumber=\count197
+\c@FancyVerbLine=\count266
+\FV@StepNumber=\count267
 \FV@OutFile=\write3
 )
 (C:\Users\admin\AppData\Roaming\MiKTeX\tex/latex/upquote\upquote.sty
@@ -213,59 +223,59 @@ tim
 )
 (C:\Users\admin\AppData\Roaming\MiKTeX\tex/latex/lineno\lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count198
+\linenopenalty=\count268
 \output=\toks20
-\linenoprevgraf=\count199
+\linenoprevgraf=\count269
 \linenumbersep=\dimen145
 \linenumberwidth=\dimen146
-\c@linenumber=\count266
-\c@pagewiselinenumber=\count267
-\c@LN@truepage=\count268
-\c@internallinenumber=\count269
-\c@internallinenumbers=\count270
+\c@linenumber=\count270
+\c@pagewiselinenumber=\count271
+\c@LN@truepage=\count272
+\c@internallinenumber=\count273
+\c@internallinenumbers=\count274
 \quotelinenumbersep=\dimen147
 \bframerule=\dimen148
 \bframesep=\dimen149
 \bframebox=\box50
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@FV@TrueTabGroupLevel=\count271
-\c@FV@TrueTabCounter=\count272
+\c@FV@TrueTabGroupLevel=\count275
+\c@FV@TrueTabCounter=\count276
 \FV@TabBox@Group=\box51
 \FV@TmpLength=\skip50
-\c@FV@HighlightLinesStart=\count273
-\c@FV@HighlightLinesStop=\count274
-\FV@LoopCount=\count275
+\c@FV@HighlightLinesStart=\count277
+\c@FV@HighlightLinesStop=\count278
+\FV@LoopCount=\count279
 \FV@NCharsBox=\box52
 \FV@BreakIndent=\dimen150
-\FV@BreakIndentNChars=\count276
+\FV@BreakIndentNChars=\count280
 \FV@BreakSymbolSepLeft=\dimen151
-\FV@BreakSymbolSepLeftNChars=\count277
+\FV@BreakSymbolSepLeftNChars=\count281
 \FV@BreakSymbolSepRight=\dimen152
-\FV@BreakSymbolSepRightNChars=\count278
+\FV@BreakSymbolSepRightNChars=\count282
 \FV@BreakSymbolIndentLeft=\dimen153
-\FV@BreakSymbolIndentLeftNChars=\count279
+\FV@BreakSymbolIndentLeftNChars=\count283
 \FV@BreakSymbolIndentRight=\dimen154
-\FV@BreakSymbolIndentRightNChars=\count280
-\c@FancyVerbLineBreakLast=\count281
+\FV@BreakSymbolIndentRightNChars=\count284
+\c@FancyVerbLineBreakLast=\count285
 \FV@LineBox=\box53
 \FV@LineIndentBox=\box54
 \FV@LineWidth=\dimen155
 )
-("C:\Program Files\MiKTeX\tex/latex/tools\calc.sty"
+(C:\Users\admin\AppData\Roaming\MiKTeX\tex/latex/latex-tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count282
-\calc@Bcount=\count283
+\calc@Acount=\count286
+\calc@Bcount=\count287
 \calc@Adimen=\dimen156
 \calc@Bdimen=\dimen157
 \calc@Askip=\skip51
 \calc@Bskip=\skip52
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count284
+\calc@Ccount=\count288
 \calc@Cskip=\skip53
 )
-("C:\Program Files\MiKTeX\tex/latex/tools\shellesc.sty"
+(C:\Users\admin\AppData\Roaming\MiKTeX\tex/latex/latex-tools\shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 )
@@ -275,13 +285,13 @@ Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
 (C:\Users\admin\AppData\Roaming\MiKTeX\tex/generic/catchfile\catchfile.sty
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
-("C:\Program Files\MiKTeX\tex/generic/iftex\ifluatex.sty"
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ))
 (C:\Users\admin\AppData\Roaming\MiKTeX\tex/latex/xstring\xstring.sty
 (C:\Users\admin\AppData\Roaming\MiKTeX\tex/generic/xstring\xstring.tex
-\integerpart=\count285
-\decimalpart=\count286
+\integerpart=\count289
+\decimalpart=\count290
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
@@ -296,10 +306,10 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \minted@appexistsfile=\read3
 \minted@bgbox=\box55
 \minted@code=\write4
-\c@minted@FancyVerbLineTemp=\count287
-\c@minted@pygmentizecounter=\count288
+\c@minted@FancyVerbLineTemp=\count291
+\c@minted@pygmentizecounter=\count292
 \@float@every@listing=\toks21
-\c@listing=\count289
+\c@listing=\count293
 )
 runsystem(if not exist _minted-LabReport mkdir _minted-LabReport)...executed.
 
@@ -316,10 +326,10 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen163
 \SOUL@ulht=\dimen164
 )
-("C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty"
+(C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -339,16 +349,59 @@ bReport.aex <nul: /p x=^%~$PATH:i>> LabReport.aex)...executed.
 runsystem(del LabReport.aex)...executed.
 
 
-("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
-File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count290
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count294
 \l__pdf_internal_box=\box56
 )
 
 LaTeX Warning: Unused global option(s):
     [letter].
 
-(LabReport.aux)
+(LabReport.aux
+
+LaTeX Warning: Label `fig:AnacondaInstall' multiply defined.
+
+
+LaTeX Warning: Label `fig:AnacondaPrompt' multiply defined.
+
+
+LaTeX Warning: Label `fig:SeleniumAnaconda' multiply defined.
+
+
+LaTeX Warning: Label `fig:SeleniumAnacondaConfirm' multiply defined.
+
+
+LaTeX Warning: Label `fig:WebDriverDownload' multiply defined.
+
+
+LaTeX Warning: Label `fig:SeleniumWebDriver' multiply defined.
+
+
+LaTeX Warning: Label `fig:TaskScheduler' multiply defined.
+
+
+LaTeX Warning: Label `fig:CreateTask' multiply defined.
+
+
+LaTeX Warning: Label `fig:TaskGeneral' multiply defined.
+
+
+LaTeX Warning: Label `fig:TaskTriggers' multiply defined.
+
+
+LaTeX Warning: Label `fig:TaskAction' multiply defined.
+
+
+LaTeX Warning: Label `fig:TaskConditions' multiply defined.
+
+
+LaTeX Warning: Label `fig:TaskSettings' multiply defined.
+
+
+LaTeX Warning: Label `fig:TaskRun' multiply defined.
+
+)
 \openout1 = `LabReport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -367,9 +420,11 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 Package hyperref Info: Link coloring OFF on input line 10.
- ("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
 (C:\Users\admin\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -378,7 +433,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 g.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count291
+\c@section@level=\count295
 )
 LaTeX Info: Redefining \ref on input line 10.
 LaTeX Info: Redefining \pageref on input line 10.
@@ -388,20 +443,20 @@ LaTeX Info: Redefining \nameref on input line 10.
 \openout5 = `LabReport.out'.
 
 
-("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count292
+\scratchcounter=\count296
 \scratchdimen=\dimen165
 \scratchbox=\box57
-\nofMPsegments=\count293
-\nofMParguments=\count294
+\nofMPsegments=\count297
+\nofMParguments=\count298
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count295
+\MPscratchCnt=\count299
 \MPscratchDim=\dimen166
-\MPnumerator=\count296
-\makeMPintoPDFobject=\count297
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
 \everyMPtoPDFconversion=\toks28
-) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -429,14 +484,14 @@ been already used, duplicate ignored
                    \relax 
 l.16 \newpage
               [1] (Section_Ethernet/Section_Ethernet.tex
-<Section_Ethernet/Figures/Anaconda_PATH.png, id=102, 668.4975pt x 531.9875pt>
+<Section_Ethernet/Figures/Anaconda_PATH.png, id=142, 668.4975pt x 531.9875pt>
 File: Section_Ethernet/Figures/Anaconda_PATH.png Graphic file (type png)
 <use Section_Ethernet/Figures/Anaconda_PATH.png>
 Package pdftex.def Info: Section_Ethernet/Figures/Anaconda_PATH.png  used on in
 put line 25.
 (pdftex.def)             Requested size: 668.49586pt x 531.9862pt.
  [2]
-<Section_Ethernet/Figures/anaconda-prompt.jpg, id=115, 788.9475pt x 644.4075pt>
+<Section_Ethernet/Figures/anaconda-prompt.jpg, id=155, 788.9475pt x 644.4075pt>
 
 File: Section_Ethernet/Figures/anaconda-prompt.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/anaconda-prompt.jpg>
@@ -449,14 +504,14 @@ input line 40.
                                                   
 l.44 
       <./Section_Ethernet/Figures/Anaconda_PATH.png (PNG copy)>]
-<Section_Ethernet/Figures/install-selenium.jpg, id=122, 984.67876pt x 516.93124
+<Section_Ethernet/Figures/install-selenium.jpg, id=163, 984.67876pt x 516.93124
 pt>
 File: Section_Ethernet/Figures/install-selenium.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/install-selenium.jpg>
 Package pdftex.def Info: Section_Ethernet/Figures/install-selenium.jpg  used on
  input line 50.
 (pdftex.def)             Requested size: 984.67635pt x 516.92998pt.
-<Section_Ethernet/Figures/confirm-screen.jpg, id=124, 966.61125pt x 201.75375pt
+<Section_Ethernet/Figures/confirm-screen.jpg, id=165, 966.61125pt x 201.75375pt
 >
 File: Section_Ethernet/Figures/confirm-screen.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/confirm-screen.jpg>
@@ -475,14 +530,14 @@ l.65
 l.65 
       <./Section_Ethernet/Figures/anaconda-prompt.jpg> <./Section_Ethernet/Figu
 res/install-selenium.jpg>]
-<Section_Ethernet/Figures/WebDriverDownload.png, id=133, 1371.1225pt x 770.88pt
+<Section_Ethernet/Figures/WebDriverDownload.png, id=176, 1371.1225pt x 770.88pt
 >
 File: Section_Ethernet/Figures/WebDriverDownload.png Graphic file (type png)
 <use Section_Ethernet/Figures/WebDriverDownload.png>
 Package pdftex.def Info: Section_Ethernet/Figures/WebDriverDownload.png  used o
 n input line 73.
 (pdftex.def)             Requested size: 1371.11916pt x 770.87813pt.
-<Section_Ethernet/Figures/PickWebDriver.png, id=135, 1371.1225pt x 770.88pt>
+<Section_Ethernet/Figures/PickWebDriver.png, id=178, 1371.1225pt x 770.88pt>
 File: Section_Ethernet/Figures/PickWebDriver.png Graphic file (type png)
 <use Section_Ethernet/Figures/PickWebDriver.png>
 Package pdftex.def Info: Section_Ethernet/Figures/PickWebDriver.png  used on in
@@ -550,7 +605,7 @@ it[])|
  []
 
 )
-<Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg, id=158, 1050.92625pt x
+<Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg, id=204, 1050.92625pt x
  602.25pt>
 File: Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg Graphic file (type
  jpg)
@@ -559,13 +614,13 @@ Package pdftex.def Info: Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg
   used on input line 164.
 (pdftex.def)             Requested size: 1050.9237pt x 602.24852pt.
  [7]
-<Section_Ethernet/Figures/create-task.jpg, id=169, 1266.7325pt x 736.7525pt>
+<Section_Ethernet/Figures/create-task.jpg, id=215, 1266.7325pt x 736.7525pt>
 File: Section_Ethernet/Figures/create-task.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/create-task.jpg>
 Package pdftex.def Info: Section_Ethernet/Figures/create-task.jpg  used on inpu
 t line 173.
 (pdftex.def)             Requested size: 1266.72942pt x 736.7507pt.
-<Section_Ethernet/Figures/TaskCreationName.png, id=171, 473.51906pt x 359.84438
+<Section_Ethernet/Figures/TaskCreationName.png, id=217, 473.51906pt x 359.84438
 pt>
 File: Section_Ethernet/Figures/TaskCreationName.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskCreationName.png>
@@ -584,14 +639,14 @@ l.187
 l.187 
        <./Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg> <./Section_Et
 hernet/Figures/create-task.jpg>]
-<Section_Ethernet/Figures/TaskCreationTrigger.png, id=183, 752.8125pt x 469.755
+<Section_Ethernet/Figures/TaskCreationTrigger.png, id=231, 752.8125pt x 469.755
 pt>
 File: Section_Ethernet/Figures/TaskCreationTrigger.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskCreationTrigger.png>
 Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationTrigger.png  used
  on input line 195.
 (pdftex.def)             Requested size: 752.81065pt x 469.75386pt.
-<Section_Ethernet/Figures/TaskCreationAction.png, id=185, 692.5875pt x 462.2268
+<Section_Ethernet/Figures/TaskCreationAction.png, id=233, 692.5875pt x 462.2268
 7pt>
 File: Section_Ethernet/Figures/TaskCreationAction.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskCreationAction.png>
@@ -610,7 +665,7 @@ l.209 	\end{figure}
 l.209 	\end{figure}
                     <./Section_Ethernet/Figures/TaskCreationName.png> <./Sectio
 n_Ethernet/Figures/TaskCreationTrigger.png>]
-<Section_Ethernet/Figures/TaskCreationConditions.png, id=198, 484.05844pt x 372
+<Section_Ethernet/Figures/TaskCreationConditions.png, id=248, 484.05844pt x 372
 .64218pt>
 File: Section_Ethernet/Figures/TaskCreationConditions.png Graphic file (type pn
 g)
@@ -624,7 +679,7 @@ sed on input line 217.
                                                   
 l.221 
        <./Section_Ethernet/Figures/TaskCreationAction.png>]
-<Section_Ethernet/Figures/TaskCreationSettings.png, id=208, 487.8225pt x 371.88
+<Section_Ethernet/Figures/TaskCreationSettings.png, id=259, 487.8225pt x 371.88
 937pt>
 File: Section_Ethernet/Figures/TaskCreationSettings.png Graphic file (type png)
 
@@ -632,7 +687,7 @@ File: Section_Ethernet/Figures/TaskCreationSettings.png Graphic file (type png)
 Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationSettings.png  use
 d on input line 226.
 (pdftex.def)             Requested size: 487.8213pt x 371.88846pt.
-<Section_Ethernet/Figures/TaskRun.png, id=210, 1264.725pt x 790.45313pt>
+<Section_Ethernet/Figures/TaskRun.png, id=261, 1264.725pt x 790.45313pt>
 File: Section_Ethernet/Figures/TaskRun.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskRun.png>
 Package pdftex.def Info: Section_Ethernet/Figures/TaskRun.png  used on input li
@@ -651,7 +706,7 @@ l.240 	\end{figure}
                     <./Section_Ethernet/Figures/TaskCreationConditions.png> <./
 Section_Ethernet/Figures/TaskCreationSettings.png>])
 (Section_Microscope/Section_Microscope.tex
-<Section_Microscope/Figures/CondenserAndObjective.jpg, id=221, 742.775pt x 507.
+<Section_Microscope/Figures/CondenserAndObjective.jpg, id=274, 742.775pt x 507.
 8975pt>
 File: Section_Microscope/Figures/CondenserAndObjective.jpg Graphic file (type j
 pg)
@@ -665,7 +720,7 @@ used on input line 21.
                                                   
 l.26 
       <./Section_Ethernet/Figures/TaskRun.png>]
-<Section_Microscope/Figures/ReflectingMicroscope.jpeg, id=231, 513.92pt x 380.4
+<Section_Microscope/Figures/ReflectingMicroscope.jpeg, id=285, 513.92pt x 380.4
 2125pt>
 File: Section_Microscope/Figures/ReflectingMicroscope.jpeg Graphic file (type j
 pg)
@@ -679,7 +734,7 @@ used on input line 37.
                                                   
 l.42 
       <./Section_Microscope/Figures/CondenserAndObjective.jpg>]
-<Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg, id=241, 6
+<Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg, id=295, 6
 05.35838pt x 368.34387pt>
 File: Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg Graph
 ic file (type jpg)
@@ -693,7 +748,7 @@ rinciple1.jpg  used on input line 54.
                                                   
 l.59 
       <./Section_Microscope/Figures/ReflectingMicroscope.jpeg>]
-<Section_Microscope/Figures/EpiVsConfocal1.png, id=249, 588.69937pt x 292.09125
+<Section_Microscope/Figures/EpiVsConfocal1.png, id=303, 588.69937pt x 292.09125
 pt>
 File: Section_Microscope/Figures/EpiVsConfocal1.png Graphic file (type png)
 <use Section_Microscope/Figures/EpiVsConfocal1.png>
@@ -712,7 +767,7 @@ l.75
 l.75 
       <./Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg> <
 ./Section_Microscope/Figures/EpiVsConfocal1.png>]
-<Section_Microscope/Figures/PL_Setup_Parts.png, id=259, 768.62157pt x 579.66562
+<Section_Microscope/Figures/PL_Setup_Parts.png, id=313, 768.62157pt x 579.66562
 pt>
 File: Section_Microscope/Figures/PL_Setup_Parts.png Graphic file (type png)
 <use Section_Microscope/Figures/PL_Setup_Parts.png>
@@ -725,7 +780,7 @@ Package pdftex.def Info: Section_Microscope/Figures/PL_Setup_Parts.png  used on
                                                   
 l.99 
       <./Section_Microscope/Figures/PL_Setup_Parts.png>]
-<Section_Microscope/Figures/PL_Setup_Zones.png, id=268, 786.68906pt x 589.4522p
+<Section_Microscope/Figures/PL_Setup_Zones.png, id=322, 786.68906pt x 589.4522p
 t>
 File: Section_Microscope/Figures/PL_Setup_Zones.png Graphic file (type png)
 <use Section_Microscope/Figures/PL_Setup_Zones.png>
@@ -756,20 +811,215 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--230
 ter / application-[]notes / optics /
  []
 
-[20]) [21] (LabReport.aux)
+[20]) (Section_ODMR_Antenna/ODMR_Antenna.tex
+File: Section_Ethernet/Figures/Anaconda_PATH.png Graphic file (type png)
+<use Section_Ethernet/Figures/Anaconda_PATH.png>
+Package pdftex.def Info: Section_Ethernet/Figures/Anaconda_PATH.png  used on in
+put line 25.
+(pdftex.def)             Requested size: 668.49586pt x 531.9862pt.
+ [21]
+File: Section_Ethernet/Figures/anaconda-prompt.jpg Graphic file (type jpg)
+<use Section_Ethernet/Figures/anaconda-prompt.jpg>
+Package pdftex.def Info: Section_Ethernet/Figures/anaconda-prompt.jpg  used on 
+input line 40.
+(pdftex.def)             Requested size: 788.94556pt x 644.40593pt.
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.21
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.44 
+     ]
+File: Section_Ethernet/Figures/install-selenium.jpg Graphic file (type jpg)
+<use Section_Ethernet/Figures/install-selenium.jpg>
+Package pdftex.def Info: Section_Ethernet/Figures/install-selenium.jpg  used on
+ input line 50.
+(pdftex.def)             Requested size: 984.67635pt x 516.92998pt.
+File: Section_Ethernet/Figures/confirm-screen.jpg Graphic file (type jpg)
+<use Section_Ethernet/Figures/confirm-screen.jpg>
+Package pdftex.def Info: Section_Ethernet/Figures/confirm-screen.jpg  used on i
+nput line 61.
+(pdftex.def)             Requested size: 966.6089pt x 201.75325pt.
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.22
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.65 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.65 
+     ]
+File: Section_Ethernet/Figures/WebDriverDownload.png Graphic file (type png)
+<use Section_Ethernet/Figures/WebDriverDownload.png>
+Package pdftex.def Info: Section_Ethernet/Figures/WebDriverDownload.png  used o
+n input line 73.
+(pdftex.def)             Requested size: 1371.11916pt x 770.87813pt.
+File: Section_Ethernet/Figures/PickWebDriver.png Graphic file (type png)
+<use Section_Ethernet/Figures/PickWebDriver.png>
+Package pdftex.def Info: Section_Ethernet/Figures/PickWebDriver.png  used on in
+put line 84.
+(pdftex.def)             Requested size: 1371.11916pt x 770.87813pt.
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.24
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.88 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.88 
+     ]
+Overfull \hbox (105.89731pt too wide) in paragraph at lines 103--109
+\OT1/cmr/m/n/10 access.morgan.edu/guest/ngnauth.php?" is a fixed string. "&mac=
+f8:b1:56:b3:7a:0a&[]browser=1"
+ []
+
+\openout3 = `LabReport.pyg'.
+
+
+(_minted-LabReport/DEC3D4FF01326EC8A1CB6BFDA1012D435D3AFA5DC583317D9CC853A03425
+FACF.pygtex [25pdfTeX warning (ext4): destination with the same identifier (nam
+e{figure.26}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.5 \PYG{k+kn}{import} \PYG{n+nn}{os}
+                                     ]
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 15--15
+\OT1/cmtt/m/n/10 driver[].[]get([]"https://secure-access.morgan.edu/guest/ngnau
+th.php?[]|  
+ []
+
+
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 18--18
+\OT1/cmtt/m/n/10 driver[].[]find_element_by_id([]ID_formcd662c6a_weblogin_user
+[])|  
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 20--20
+\OT1/cmtt/m/n/10 driver[].[]find_element_by_id([]ID_formcd662c6a_weblogin_pass
+word[])|  
+ []
+
+
+Overfull \hbox (85.49625pt too wide) in paragraph at lines 22--22
+\OT1/cmtt/m/n/10 driver[].[]find_element_by_id([]ID_formcd662c6a_weblogin_visi
+tor_accept_terms[])|  
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 24--24
+\OT1/cmtt/m/n/10 driver[].[]find_element_by_id([]ID_formcd662c6a_weblogin_subm
+it[])|  
+ []
+
+)
+File: Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg Graphic file (type
+ jpg)
+<use Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg>
+Package pdftex.def Info: Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg
+  used on input line 164.
+(pdftex.def)             Requested size: 1050.9237pt x 602.24852pt.
+ [26]
+File: Section_Ethernet/Figures/create-task.jpg Graphic file (type jpg)
+<use Section_Ethernet/Figures/create-task.jpg>
+Package pdftex.def Info: Section_Ethernet/Figures/create-task.jpg  used on inpu
+t line 173.
+(pdftex.def)             Requested size: 1266.72942pt x 736.7507pt.
+File: Section_Ethernet/Figures/TaskCreationName.png Graphic file (type png)
+<use Section_Ethernet/Figures/TaskCreationName.png>
+Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationName.png  used on
+ input line 183.
+(pdftex.def)             Requested size: 473.51788pt x 359.84349pt.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.27
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.187 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+28}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.187 
+      ]
+File: Section_Ethernet/Figures/TaskCreationTrigger.png Graphic file (type png)
+<use Section_Ethernet/Figures/TaskCreationTrigger.png>
+Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationTrigger.png  used
+ on input line 195.
+(pdftex.def)             Requested size: 752.81065pt x 469.75386pt.
+File: Section_Ethernet/Figures/TaskCreationAction.png Graphic file (type png)
+<use Section_Ethernet/Figures/TaskCreationAction.png>
+Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationAction.png  used 
+on input line 206.
+(pdftex.def)             Requested size: 692.5858pt x 462.22574pt.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.29
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.209 	\end{figure}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.30}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.209 	\end{figure}
+                   ]
+File: Section_Ethernet/Figures/TaskCreationConditions.png Graphic file (type pn
+g)
+<use Section_Ethernet/Figures/TaskCreationConditions.png>
+Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationConditions.png  u
+sed on input line 217.
+(pdftex.def)             Requested size: 484.05725pt x 372.64127pt.
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.31
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.221 
+      ]
+File: Section_Ethernet/Figures/TaskCreationSettings.png Graphic file (type png)
+
+<use Section_Ethernet/Figures/TaskCreationSettings.png>
+Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationSettings.png  use
+d on input line 226.
+(pdftex.def)             Requested size: 487.8213pt x 371.88846pt.
+File: Section_Ethernet/Figures/TaskRun.png Graphic file (type png)
+<use Section_Ethernet/Figures/TaskRun.png>
+Package pdftex.def Info: Section_Ethernet/Figures/TaskRun.png  used on input li
+ne 237.
+(pdftex.def)             Requested size: 1264.72192pt x 790.45119pt.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.32
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.240 	\end{figure}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.33}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.240 	\end{figure}
+                   ]) [31pdfTeX warning (ext4): destination with the same ident
+ifier (name{figure.34}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.27 \end{document}
+                   ] (LabReport.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `LabReport.out' has not changed.
-(rerunfilecheck)             Checksum: 93BE76E3E49DD6CB0F608BBF4460D4A5;1290.
+(rerunfilecheck)             Checksum: 2EB0FA5481E65280DDBD8E9FEC717FD4;4973.
 runsystem(del LabReport.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 9293 strings out of 479799
- 161596 string characters out of 2879559
- 517915 words of memory out of 3000000
- 25991 multiletter control sequences out of 15000+200000
- 540495 words of font info for 48 fonts, out of 3000000 for 9000
+ 11998 strings out of 479334
+ 198047 string characters out of 2866921
+ 555886 words of memory out of 3000000
+ 29095 multiletter control sequences out of 15000+200000
+ 408837 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,9n,72p,398b,640s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 72i,9n,74p,407b,643s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
@@ -782,9 +1032,9 @@ c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on LabReport.pdf (22 pages, 2032462 bytes).
+Output written on LabReport.pdf (32 pages, 2063091 bytes).
 PDF statistics:
- 401 PDF objects out of 1000 (max. 8388607)
- 99 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 547 PDF objects out of 1000 (max. 8388607)
+ 150 named destinations out of 1000 (max. 500000)
+ 293 words of extra memory for PDF output out of 10000 (max. 10000000)
 
