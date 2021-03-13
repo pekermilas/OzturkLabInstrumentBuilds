@@ -1,241 +1,304 @@
-This is a software based workaround for our lab's computers to keep the in the
-wired network. To implement the solution, following software is required to be
-installed;
+This is a walkthrough on antenna design and manufacturing for 
+\textbf{Optically Detected Magnetic Resonance} (ODMR) setup we have in the lab. 
+Two methods, both relying on the photo-lithography, will be covered here in detail.
 
-\begin{itemize}
- \item \textbf{Chrome} web browser
- \item \textbf{Anaconda} or another Pyhton distribution. 
- \item \textbf{Selenium} libraries for Anaconda to be able to interface with Selenium.
- \item \textbf{Selenium} Web Driver
-\end{itemize}
+%\begin{itemize}
+% \item \textbf{Chrome} web browser
+% \item \textbf{Anaconda} or another Pyhton distribution. 
+% \item \textbf{Selenium} libraries for Anaconda to be able to interface with Selenium.
+% \item \textbf{Selenium} Web Driver
+%\end{itemize}
 
-\subsection{Preparation and Software Installations}
-\subsubsection{Chrome Installation}
-To install Chrome, go to following web page and download the suitable installer version
-for your operating system (OS). \footnote{\url{https://www.google.com/chrome/}}
+\subsection{ODMR Antenna manufacturing with a mask}
 
-\subsubsection{Anaconda Installation}
-To install Anaconda, go to web page and download Anaconda installer suitable for your  
-OS. \footnote{\url{https://www.anaconda.com/products/individual}}. During the installation, at some
-point installer will give you an option to add Anaconda to system path (\$PATH) as
-shown in Figure\ref{fig:AnacondaInstall}.
+\subsubsection{Mask Design}
 
-\begin{figure}[H]
-    \centering
-	\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_Ethernet/Figures/Anaconda_PATH.png}
-    \caption{Installation step for adding Anaconda to system path.}
-    \label{fig:AnacondaInstall}
-\end{figure}
-
-Here, go ahead and click the box on the left to add Anaconda to system path. This will
-make Anaconda your system-wide Python library. Its issues are not going to be discussed
-here for simplicity.
-
-\subsubsection{Selenium Library Installation}
-To install Selenium libraries for allowing Anaconda to interface with Selenium web
-driver you can use Anaconda Prompt as shown in Figure\ref{fig:AnacondaPrompt}.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_Ethernet/Figures/anaconda-prompt.jpg}
-    \caption{Opening up Anaconda Prompt.}
-    \label{fig:AnacondaPrompt}
-\end{figure}
-
-In Anaconda Prompt, you can simply type \textbf{conda install -c conda-forge selenium}
-and click \textbf{Enter}, as shown in Figure\ref{fig:SeleniumAnaconda}.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_Ethernet/Figures/install-selenium.jpg}
-    \caption{Selenium library installation for Anaconda.}
-    \label{fig:SeleniumAnaconda}
-\end{figure}
-
-Once Anaconda figures out where Selenium library is and possible additional required
-libraries, it will ask your confirmation as shown in Figure
-\ref{fig:SeleniumAnacondaConfirm}. Here you can type \textbf{y} and click \textbf{Enter}.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_Ethernet/Figures/confirm-screen.jpg}
-    \caption{Selenium library installation confirmation screen.}
-    \label{fig:SeleniumAnacondaConfirm}
-\end{figure}
-
-\subsubsection{Selenium WebDriver Installation}
-To install Selenium WebDriver for allowing Selenium-Anaconda library to control the
-web browser (\textbf{here we use Chrome!!!}), go to the following web page, 
-\url{https://sites.google.com/a/chromium.org/chromedriver/} as shown in Figure
-\ref{fig:WebDriverDownload}. 
-\begin{figure}[H]
-    \centering
-    \includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_Ethernet/Figures/WebDriverDownload.png}
-    \caption{Selenium library installation confirmation screen.}
-    \label{fig:WebDriverDownload}
-\end{figure}
-
-Within other options, click on the \textbf{Latest Stable Release}. This will direct you 
-another web page with multiple files you can download as shown in Figure
-\ref{fig:SeleniumWebDriver}. \textbf{Here, you have to download 32-bit driver!!!}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_Ethernet/Figures/PickWebDriver.png}
-    \caption{Selenium library installation confirmation screen.}
-    \label{fig:SeleniumWebDriver}
-\end{figure}
-
-Once download finishes, you can unzip the the webdriver file with any software you 
-desire.
-
-\subsection{Implementation-Coding}
-To invoke Selenium I wrote Python Script. An overwiev of the code is as 
-following;
+At the moment we are using the design given in an article \footnote{\textbf{Efficient microwave radiation using broadened-bandwidth coplanar waveguide resonator on assembly of nitrogen-vacancy centers in diamond}; Zongmin Ma, 
+	et al.; \textit{Japanese Journal of Applied Physics}; 2019, Vol:58, p:050919}. To replicate the design and 
+manufacture the antenna, we used the given parameters in the article and followed these steps;
 
 \begin{enumerate}
 
- \item \textbf{Lines 1-4:} Imports essential libraries.
- \item \textbf{Lines 6-8:} Pings Google's DNS server to check whether the PC
-        is connected to wired network. 
- \item \textbf{Lines 10-11:} If output of lines 6-8 are both indicating connection
-        proceed to the end of the code.
- \item \textbf{Lines 12-27:} If PC is not connected;
- \textbf{Line 13:} Run Chrome driver
- \textbf{Line 14:} Send Chrome to university's Log-In page.
- Here "https://secure-access.morgan.edu/guest/ngnauth.php?" is a fixed string.
- "\&mac=f8:b1:56:b3:7a:0a\&\_browser=1" is the MAC address of our machine and
- browser number which is the default browser.
- \item \textbf{Lines 17-20:} Fill out the form on university's Log-In page
- using your username and password.
- \item \textbf{Lines 21-22:} Click the box to accept the terms.
- \item \textbf{Lines 23-24:} Click on the Accept button to Log-In.
- \item \textbf{Lines 25-27:} Wait for the webpage to load to university's homepage
- then close the browser.
- \item \textbf{Line 28:} Kill python.exe to stop the process cleanly.
-
+ \item Replicate the design in AutoCAD.
+ \item Convert the AutoCAD design to a high resolution .pdf file.
+ \item Process the .pdf file in Inkscape for removing unwanted features like watermarks etc.
+ \item Print the mask on to a heat resistant acetate sheet with max resolution.
+  
 \end{enumerate}
 
+Some of the feature dimensions are not provided in the article. These dimensions are required
+to be estimated by carefully inspecting the real antenna image given in the article,
+Figure\ref{fig:RealAntenna}.
 
-\begin{minted}[breaklines,mathescape,linenos]{python}
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-import time
-import os
+\begin{figure}[H]
+    \centering
+	\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/RealAntenna.png}
+    \caption{An image of the real antenna used in the reference article. Here \textbf{the thickness of
+    the central line, and its length} are not given. The thickness and the length of the central line
+	(up to the outer edge of the largest circle) are estimated to be 1.12mm, 1.57mm respectively.}
+    \label{fig:RealAntenna}
+\end{figure}
 
-temp = os.popen("ping 8.8.8.8").read()
-test_connection1 = temp.find('PING: transmit failed. General failure.')
-test_connection2 = temp.find('Request timed out.')
+Upon estimating the missing dimensions, antenna can be replicated in AutoCAD. It is important
+to note that the line thicknesses in the drawing has to be zero (0). Also all the line segments,
+arcs, etc. have to be connected so that the final drawing has to have only polylines for disconnected
+objects. You can test the polyline behavior by hovering the over lines in the drawing. Once the 
+mouse is hovered AutoCAD generates a shade throughout polylines, Figure\ref{fig:ShadedUnshaded}.
 
-if (test_connection1 < 0 and test_connection2 < 0):
-    print("Already connected. Exiting!!!")
-else:
-    driver = webdriver.Chrome()
-    driver.get("https://secure-access.morgan.edu/guest/ngnauth.php?
-                &mac=f8:b1:56:b3:7a:0a&_browser=1")
-    
-    elem1 = driver.find_element_by_id('ID_formcd662c6a_weblogin_user')
-    elem1.send_keys("Peker.Milas")
-    elem2 = driver.find_element_by_id('ID_formcd662c6a_weblogin_password')
-    elem2.send_keys("Onder1981")
-    elem3 = driver.find_element_by_id('ID_formcd662c6a_weblogin_visitor_accept_terms')
-    elem3.click()
-    elem4 = driver.find_element_by_id('ID_formcd662c6a_weblogin_submit')
-    elem4.click()
-    time.sleep(10)
+\begin{figure}[H]
+	\centering
+	\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/ShadedUnshaded.png}
+	\caption{A screenshot from AutoCAD showing the finalized antenna design (\textbf{left}), and
+		the shade on polyline when the mouse/cursor is hovered on a line (\textbf{right}).}
+	\label{fig:ShadedUnshaded}
+\end{figure}
 
-    driver.close()
-os.system("taskkill /F /im python.exe")
-\end{minted}
-
-\subsection{Implementation-Automatization}
-As I have indicated above, the provided Python script is meant to execute once.
-Therefore, to first sense a loss in wired connection and invoke the Selenium
-for automatic Log-In, we use Windows' \textbf{Task Scheduler}. This is done as
-following;
+It is important to note that AutoCAD's printing mechanism is a bit complicated. It does not
+simply print the drawing in 1:1 scale, neither I recognizes the which paper size is suitable
+for the design. Specific to the "Student Version", it also creates watermarks near the side edges
+of the print area. These are all required to be handled manually. The conversion of design to .pdf 
+format needs to be done in following steps;
 
 \begin{enumerate}
- 
- \item Click on the Windows search bar and type Task Scheduler. This will pop
- a widow above Windows logo to let you run Task Scheduler which is shown in 
- Figure\ref{fig:TaskScheduler}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg}
-        \caption{Windows10 Task Scheduler.}
-        \label{fig:TaskScheduler}
-    \end{figure}
- 
- \item Click on the "Action$\rightarrow$Create Task", as shown in Figure
- \ref{fig:CreateTask}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_Ethernet/Figures/create-task.jpg}
-        \caption{Create a task in Task Scheduler.}
-        \label{fig:CreateTask}
-    \end{figure}
- 
- \item In popped-up window, on General tab, as shown in Figure\ref{fig:TaskGeneral}, 
- give a unique name to your task and describe it for future reference.
- 
-    \begin{figure}[H]
-        \centering
-        \includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_Ethernet/Figures/TaskCreationName.png}
-        \caption{Name and Description fields under General tab.}
-        \label{fig:TaskGeneral}
-    \end{figure}
-    
- \item On the Triggers tab, as shown in Figure\ref{fig:TaskTriggers}, click on New.
- In popped-up window, set the Start time and date. Also make your task runs for One time. 
- Let the  task repeat at specified times (here every 30 minutes) and keep it run 
- indefinitely.
- 
-    \begin{figure}[H]
-		\centering
-		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_Ethernet/Figures/TaskCreationTrigger.png}
-		\caption{Timer and repetition related fields under Triggers tab.}
-		\label{fig:TaskTriggers}
-	\end{figure}
+	
+	\item Click on the "Print" button, Figure\ref{fig:PrintButton}. This will open up "Plot - Model" window for you,
+	Figure\ref{fig:PlotModelWindow}.
 
- \item On the Actions tab, as shown in Figure\ref{fig:TaskAction}, click on New. In 
- popped-up window, make Action Start a program. In Programs/script field, add the 
- location of your python executable (python.exe). In Arguments field, add your python
- script's name. In Start in (Optional) field, add the location of your python script.
 	\begin{figure}[H]
 		\centering
-		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_Ethernet/Figures/TaskCreationAction.png}
-		\caption{Script and arguments related fields under Triggers tab.}
-		\label{fig:TaskAction}
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/PrintButton.png}
+		\caption{"Print" button on AutoCAD top menu.}
+		\label{fig:PrintButton}
 	\end{figure}
-
- \item On the Conditions tab, as shown in Figure\ref{fig:TaskConditions}, most of 
- the fields are related with hardware such as whether you have a laptop which can
- run on battery or not. Therefore you can simply keep it as shown in Figure
- \ref{fig:TaskConditions}
+	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_Ethernet/Figures/TaskCreationConditions.png}
-		\caption{Already prepared Conditions tab.}
-		\label{fig:TaskConditions}
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/PlotModelWindow.png}
+		\caption{"Plot - Model" window in AutoCAD.}
+		\label{fig:PlotModelWindow}
 	\end{figure}
 
- \item On the Setting tab, as shown in Figure\ref{fig:TaskSettings}, you can again
- set relevant fields as shown in Figure\ref{fig:TaskSettings}.
+	\item In "Plot - Model" window, select proper "Drawing Orientation" (here \underline{Portrait}),
+	Figure\ref{fig:PrintOpenScreen}.
+
 	\begin{figure}[H]
 		\centering
-		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_Ethernet/Figures/TaskCreationSettings.png}
-		\caption{Already prepared Settings tab.}
-		\label{fig:TaskSettings}
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/PrintOpenScreen.png}
+		\caption{Drawing Orientation section in "Plot - Model" window in AutoCAD.}
+		\label{fig:PrintOpenScreen}
 	\end{figure}
 
- \item Once you are done with setting up your scheduled task, save it and close its
- window. This will add your new task to default windows tasks as shown in 
- Figure\ref{fig:TaskRun}. Right-click on your task and run it for the first time.
- After that point, it can run by itself.
+	\item In "Plot - Model" window, under Printer/plotter section, select AutoCAD PDF (High Quality Print).pc3, 
+	Figure\ref{fig:ChoosePlotter1}.
+
 	\begin{figure}[H]
 		\centering
-		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_Ethernet/Figures/TaskRun.png}
-		\caption{First run of the new task.}
-		\label{fig:TaskRun}
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/ChoosePlotter1.png}
+		\caption{Selection of AutoCAD PDF (High Quality Print).pc3 in Printer/plotter section of "Plot - Model" 
+			window in AutoCAD.}
+		\label{fig:ChoosePlotter1}
 	\end{figure}
+
+	\item In "Plot - Model" window, under Printer/plotter section, select click on PDF Options button, 
+	Figure\ref{fig:CustomizePlotter}. This will open up "PDF Options" window, Figure\ref{fig:PDFOptionsWindow}.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/CustomizePlotter.png}
+		\caption{PDF Options in Printer/plotter section of "Plot - Model" window in AutoCAD.}
+		\label{fig:CustomizePlotter}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/PDFOptionsWindow.png}
+		\caption{"PDF Options" window in AutoCAD.}
+		\label{fig:PDFOptionsWindow}
+	\end{figure}
+
+	\item In "PDF Options" window, under "Quality" section, change both "Vector quality" and "Raster image quality"
+	to maximum (4800 dpi), Figure\ref{fig:PDFOptionsWindow1}. Then click on "OK" to close the window.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/PDFOptionsWindow1.png}
+		\caption{"PDF Options" window in AutoCAD.}
+		\label{fig:PDFOptionsWindow1}
+	\end{figure}
+
+	\item In "Plot - Model" window, under Printer/plotter section, click on the "Properties" button. This will open 
+	up "Plotter Configuration Editor", Figure\ref{fig:CustomizePaperSize}.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/CustomizePaperSize.png}
+		\caption{"Properties" button in Printer/plotter section of "Plot - Model" window in AutoCAD.}
+		\label{fig:CustomizePaperSize}
+	\end{figure}
+	
+	\item In "Plotter Configuration Editor" window, select "Modify Standard Paper Sizes", 
+	Figure\ref{fig:ChoosePaperType1} and select proper paper type (here ANSI A (8.50 x 11.00 Inches)),
+	Figure\ref{fig:ChoosePaperType2} in the "Modify Standard Paper Sizes" section.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/ChoosePaperType1.png}
+		\caption{In "Plotter Configuration Editor", selection of "Modify Standard Paper Sizes" in AutoCAD.}
+		\label{fig:ChoosePaperType1}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/ChoosePaperType2.png}
+		\caption{In "Plotter Configuration Editor", paper type selection in AutoCAD.}
+		\label{fig:ChoosePaperType2}
+	\end{figure}
+
+	\item Click on the "Modify" button in "Modify Standard Paper Sizes" section. This will open up 
+	"Custom Paper Size - Printable Area" window for you, Figure\ref{fig:ChangePaperMargins1}.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/ChangePaperMargins1.png}
+		\caption{"Custom Paper Size - Printable Area" window in AutoCAD.}
+		\label{fig:ChangePaperMargins1}
+	\end{figure}
+	
+	\item In "Custom Paper Size - Printable Area" window, change the values for Top-Bottom-Right-Left to
+	zero (0), Figure\ref{fig:ChangePaperMargins2}.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/ChangePaperMargins2.png}
+		\caption{Setting print margins to zero in "Custom Paper Size - Printable Area" window.}
+		\label{fig:ChangePaperMargins2}
+	\end{figure}
+	
+	\item Click on "Next", then "Next", and finally "Finish". This will change the plotter settings and create 
+	a new file in AutoCAD/Plotters/PMP files directory, Figure\ref{fig:FolderOfCustomPlotters}. Once conversion to 
+	.pdf is done, it is a good practice to delete this file.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/FolderOfCustomPlotters.png}
+		\caption{Customized plotter file in AutoCAD Plotters folder.}
+		\label{fig:FolderOfCustomPlotters}
+	\end{figure}
+
+	\item Click on "OK" in "Plotter Configuration Editor" window to close it.
+
+	\item In "Plot - Model" window, under "Plot Area" section, change "What to Plot:" to "Extents",
+	Figure\ref{fig:DefinePlotArea}.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/DefinePlotArea.png}
+		\caption{Selection of plot area in "Plot - Model" window.}
+		\label{fig:DefinePlotArea}
+	\end{figure}
+	
+	\item In "Plot - Model" window, under "Shaded vieport options" section, change "Quality" to "Maximum",
+	Figure\ref{fig:PrintQuality}.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/PrintQuality.png}
+		\caption{Setting plot quality in "Plot - Model" window.}
+		\label{fig:PrintQuality}
+	\end{figure}
+	
+	\item In "Plot - Model" window, under "Plot options" section, un-click "Plot object lineweights" box,
+	Figure\ref{fig:PrintLineweights}.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/PrintLineweights.png}
+		\caption{Setting the plot line thicknesses to zero in "Plot - Model" window.}
+		\label{fig:PrintLineweights}
+	\end{figure}
+
+	\item Now the drawing can be plotted/converted to a .pdf file.
+	
 \end{enumerate}
+
+Following the conversion of the drawing, the resultant .pdf file needs to be post-processed with Inkscape.
+This has to be done in following steps;
+
+\begin{enumerate}
+	
+	\item Open the .pdf file in Inkscape. In "Import" window select Poppler/Cairo option,
+	Figure\ref{fig:OpenPdfInkscape}.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/OpenPdfInkscape.png}
+		\caption{Opening/Importing pdf version of the mask in Inkscape.}
+		\label{fig:OpenPdfInkscape}
+	\end{figure}
+	
+	
+	\item Select everything and un-group, Figure\ref{fig:SelectUngroup}.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/SelectUngroup.png}
+		\caption{Ungrouping the selected elements in Inkscape.}
+		\label{fig:SelectUngroup}
+	\end{figure}
+	
+	\item Click on "Edit nodes" and select disconnected line segments. Selection of disconnected 
+	line segments can be done by left-clicking on a line segment while holding "Shift" button, 
+	Figure\ref{fig:EditNodes}.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/EditNodes.png}
+		\caption{Selection of Edit Nodes and the two disconnected line segments in Inkscape.}
+		\label{fig:EditNodes}
+	\end{figure}
+
+	\item By looking at the zoomed in images, disconnected line segments' ends will be obvious.
+	Here select these line segment ends and "Join" them. This has to be done for all disconnected
+	line segments, Figure\ref{fig:JoinNodes}.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/JoinNodes.png}
+		\caption{Joining the end nodes of two disconnected line segments in Inkscape.}
+		\label{fig:JoinNodes}
+	\end{figure}
+	
+	\item Processing fully connected structures is very easy in Inkscape, so additional changes in
+	the document without disturbing the original design can be done at this stage. One example to
+	these changes can be increasing the number of structures or repositioning them with respect to
+	the page.
+	
+	\item Select the fully connected structure and open up "Fill and Stroke" dialog, Figure\ref{fig:FillAndStroke}. 
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/FillAndStroke.png}
+		\caption{Fill and Stroke dialog in Inkscape.}
+		\label{fig:FillAndStroke}
+	\end{figure}
+	
+	\item In "Fill and Stroke" dialog, Fill with a solid color, Figure\ref{fig:FillSolidColor}. 
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[angle=0,origin=c,width = .8\linewidth]{Section_ODMR_Antenna/Figures/FillSolidColor.png}
+		\caption{Filling structures with a solid color in Inkscape.}
+		\label{fig:FillSolidColor}
+	\end{figure}
+	
+	\item Select everything on the page and group them this time from the menu that was used for
+	un-grouping, Figure\ref{fig:SelectUngroup}.
+	
+	\item Save the final design as \textbf{.svg} file first. Then save it again as \textbf{.pdf} file.
+\end{enumerate}
+
+
+
+\subsubsection{Lithography on Copper Laminate}
+
+AAA

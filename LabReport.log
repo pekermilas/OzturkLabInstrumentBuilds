@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.9)  9 MAR 2021 11:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.9)  13 MAR 2021 10:28
 entering extended mode
 **./LabReport.tex
 (LabReport.tex
@@ -358,50 +358,7 @@ File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [letter].
 
-(LabReport.aux
-
-LaTeX Warning: Label `fig:AnacondaInstall' multiply defined.
-
-
-LaTeX Warning: Label `fig:AnacondaPrompt' multiply defined.
-
-
-LaTeX Warning: Label `fig:SeleniumAnaconda' multiply defined.
-
-
-LaTeX Warning: Label `fig:SeleniumAnacondaConfirm' multiply defined.
-
-
-LaTeX Warning: Label `fig:WebDriverDownload' multiply defined.
-
-
-LaTeX Warning: Label `fig:SeleniumWebDriver' multiply defined.
-
-
-LaTeX Warning: Label `fig:TaskScheduler' multiply defined.
-
-
-LaTeX Warning: Label `fig:CreateTask' multiply defined.
-
-
-LaTeX Warning: Label `fig:TaskGeneral' multiply defined.
-
-
-LaTeX Warning: Label `fig:TaskTriggers' multiply defined.
-
-
-LaTeX Warning: Label `fig:TaskAction' multiply defined.
-
-
-LaTeX Warning: Label `fig:TaskConditions' multiply defined.
-
-
-LaTeX Warning: Label `fig:TaskSettings' multiply defined.
-
-
-LaTeX Warning: Label `fig:TaskRun' multiply defined.
-
-)
+(LabReport.aux)
 \openout1 = `LabReport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -484,14 +441,14 @@ been already used, duplicate ignored
                    \relax 
 l.16 \newpage
               [1] (Section_Ethernet/Section_Ethernet.tex
-<Section_Ethernet/Figures/Anaconda_PATH.png, id=142, 668.4975pt x 531.9875pt>
+<Section_Ethernet/Figures/Anaconda_PATH.png, id=122, 668.4975pt x 531.9875pt>
 File: Section_Ethernet/Figures/Anaconda_PATH.png Graphic file (type png)
 <use Section_Ethernet/Figures/Anaconda_PATH.png>
 Package pdftex.def Info: Section_Ethernet/Figures/Anaconda_PATH.png  used on in
 put line 25.
 (pdftex.def)             Requested size: 668.49586pt x 531.9862pt.
  [2]
-<Section_Ethernet/Figures/anaconda-prompt.jpg, id=155, 788.9475pt x 644.4075pt>
+<Section_Ethernet/Figures/anaconda-prompt.jpg, id=135, 788.9475pt x 644.4075pt>
 
 File: Section_Ethernet/Figures/anaconda-prompt.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/anaconda-prompt.jpg>
@@ -504,14 +461,14 @@ input line 40.
                                                   
 l.44 
       <./Section_Ethernet/Figures/Anaconda_PATH.png (PNG copy)>]
-<Section_Ethernet/Figures/install-selenium.jpg, id=163, 984.67876pt x 516.93124
+<Section_Ethernet/Figures/install-selenium.jpg, id=142, 984.67876pt x 516.93124
 pt>
 File: Section_Ethernet/Figures/install-selenium.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/install-selenium.jpg>
 Package pdftex.def Info: Section_Ethernet/Figures/install-selenium.jpg  used on
  input line 50.
 (pdftex.def)             Requested size: 984.67635pt x 516.92998pt.
-<Section_Ethernet/Figures/confirm-screen.jpg, id=165, 966.61125pt x 201.75375pt
+<Section_Ethernet/Figures/confirm-screen.jpg, id=144, 966.61125pt x 201.75375pt
 >
 File: Section_Ethernet/Figures/confirm-screen.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/confirm-screen.jpg>
@@ -530,14 +487,14 @@ l.65
 l.65 
       <./Section_Ethernet/Figures/anaconda-prompt.jpg> <./Section_Ethernet/Figu
 res/install-selenium.jpg>]
-<Section_Ethernet/Figures/WebDriverDownload.png, id=176, 1371.1225pt x 770.88pt
+<Section_Ethernet/Figures/WebDriverDownload.png, id=153, 1371.1225pt x 770.88pt
 >
 File: Section_Ethernet/Figures/WebDriverDownload.png Graphic file (type png)
 <use Section_Ethernet/Figures/WebDriverDownload.png>
 Package pdftex.def Info: Section_Ethernet/Figures/WebDriverDownload.png  used o
 n input line 73.
 (pdftex.def)             Requested size: 1371.11916pt x 770.87813pt.
-<Section_Ethernet/Figures/PickWebDriver.png, id=178, 1371.1225pt x 770.88pt>
+<Section_Ethernet/Figures/PickWebDriver.png, id=155, 1371.1225pt x 770.88pt>
 File: Section_Ethernet/Figures/PickWebDriver.png Graphic file (type png)
 <use Section_Ethernet/Figures/PickWebDriver.png>
 Package pdftex.def Info: Section_Ethernet/Figures/PickWebDriver.png  used on in
@@ -605,7 +562,7 @@ it[])|
  []
 
 )
-<Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg, id=204, 1050.92625pt x
+<Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg, id=178, 1050.92625pt x
  602.25pt>
 File: Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg Graphic file (type
  jpg)
@@ -614,13 +571,13 @@ Package pdftex.def Info: Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg
   used on input line 164.
 (pdftex.def)             Requested size: 1050.9237pt x 602.24852pt.
  [7]
-<Section_Ethernet/Figures/create-task.jpg, id=215, 1266.7325pt x 736.7525pt>
+<Section_Ethernet/Figures/create-task.jpg, id=189, 1266.7325pt x 736.7525pt>
 File: Section_Ethernet/Figures/create-task.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/create-task.jpg>
 Package pdftex.def Info: Section_Ethernet/Figures/create-task.jpg  used on inpu
 t line 173.
 (pdftex.def)             Requested size: 1266.72942pt x 736.7507pt.
-<Section_Ethernet/Figures/TaskCreationName.png, id=217, 473.51906pt x 359.84438
+<Section_Ethernet/Figures/TaskCreationName.png, id=191, 473.51906pt x 359.84438
 pt>
 File: Section_Ethernet/Figures/TaskCreationName.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskCreationName.png>
@@ -639,14 +596,14 @@ l.187
 l.187 
        <./Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg> <./Section_Et
 hernet/Figures/create-task.jpg>]
-<Section_Ethernet/Figures/TaskCreationTrigger.png, id=231, 752.8125pt x 469.755
+<Section_Ethernet/Figures/TaskCreationTrigger.png, id=203, 752.8125pt x 469.755
 pt>
 File: Section_Ethernet/Figures/TaskCreationTrigger.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskCreationTrigger.png>
 Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationTrigger.png  used
  on input line 195.
 (pdftex.def)             Requested size: 752.81065pt x 469.75386pt.
-<Section_Ethernet/Figures/TaskCreationAction.png, id=233, 692.5875pt x 462.2268
+<Section_Ethernet/Figures/TaskCreationAction.png, id=205, 692.5875pt x 462.2268
 7pt>
 File: Section_Ethernet/Figures/TaskCreationAction.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskCreationAction.png>
@@ -665,7 +622,7 @@ l.209 	\end{figure}
 l.209 	\end{figure}
                     <./Section_Ethernet/Figures/TaskCreationName.png> <./Sectio
 n_Ethernet/Figures/TaskCreationTrigger.png>]
-<Section_Ethernet/Figures/TaskCreationConditions.png, id=248, 484.05844pt x 372
+<Section_Ethernet/Figures/TaskCreationConditions.png, id=218, 484.05844pt x 372
 .64218pt>
 File: Section_Ethernet/Figures/TaskCreationConditions.png Graphic file (type pn
 g)
@@ -679,7 +636,7 @@ sed on input line 217.
                                                   
 l.221 
        <./Section_Ethernet/Figures/TaskCreationAction.png>]
-<Section_Ethernet/Figures/TaskCreationSettings.png, id=259, 487.8225pt x 371.88
+<Section_Ethernet/Figures/TaskCreationSettings.png, id=228, 487.8225pt x 371.88
 937pt>
 File: Section_Ethernet/Figures/TaskCreationSettings.png Graphic file (type png)
 
@@ -687,7 +644,7 @@ File: Section_Ethernet/Figures/TaskCreationSettings.png Graphic file (type png)
 Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationSettings.png  use
 d on input line 226.
 (pdftex.def)             Requested size: 487.8213pt x 371.88846pt.
-<Section_Ethernet/Figures/TaskRun.png, id=261, 1264.725pt x 790.45313pt>
+<Section_Ethernet/Figures/TaskRun.png, id=230, 1264.725pt x 790.45313pt>
 File: Section_Ethernet/Figures/TaskRun.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskRun.png>
 Package pdftex.def Info: Section_Ethernet/Figures/TaskRun.png  used on input li
@@ -706,7 +663,7 @@ l.240 	\end{figure}
                     <./Section_Ethernet/Figures/TaskCreationConditions.png> <./
 Section_Ethernet/Figures/TaskCreationSettings.png>])
 (Section_Microscope/Section_Microscope.tex
-<Section_Microscope/Figures/CondenserAndObjective.jpg, id=274, 742.775pt x 507.
+<Section_Microscope/Figures/CondenserAndObjective.jpg, id=241, 742.775pt x 507.
 8975pt>
 File: Section_Microscope/Figures/CondenserAndObjective.jpg Graphic file (type j
 pg)
@@ -720,7 +677,7 @@ used on input line 21.
                                                   
 l.26 
       <./Section_Ethernet/Figures/TaskRun.png>]
-<Section_Microscope/Figures/ReflectingMicroscope.jpeg, id=285, 513.92pt x 380.4
+<Section_Microscope/Figures/ReflectingMicroscope.jpeg, id=251, 513.92pt x 380.4
 2125pt>
 File: Section_Microscope/Figures/ReflectingMicroscope.jpeg Graphic file (type j
 pg)
@@ -734,7 +691,7 @@ used on input line 37.
                                                   
 l.42 
       <./Section_Microscope/Figures/CondenserAndObjective.jpg>]
-<Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg, id=295, 6
+<Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg, id=261, 6
 05.35838pt x 368.34387pt>
 File: Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg Graph
 ic file (type jpg)
@@ -748,7 +705,7 @@ rinciple1.jpg  used on input line 54.
                                                   
 l.59 
       <./Section_Microscope/Figures/ReflectingMicroscope.jpeg>]
-<Section_Microscope/Figures/EpiVsConfocal1.png, id=303, 588.69937pt x 292.09125
+<Section_Microscope/Figures/EpiVsConfocal1.png, id=269, 588.69937pt x 292.09125
 pt>
 File: Section_Microscope/Figures/EpiVsConfocal1.png Graphic file (type png)
 <use Section_Microscope/Figures/EpiVsConfocal1.png>
@@ -767,7 +724,7 @@ l.75
 l.75 
       <./Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg> <
 ./Section_Microscope/Figures/EpiVsConfocal1.png>]
-<Section_Microscope/Figures/PL_Setup_Parts.png, id=313, 768.62157pt x 579.66562
+<Section_Microscope/Figures/PL_Setup_Parts.png, id=279, 768.62157pt x 579.66562
 pt>
 File: Section_Microscope/Figures/PL_Setup_Parts.png Graphic file (type png)
 <use Section_Microscope/Figures/PL_Setup_Parts.png>
@@ -780,7 +737,7 @@ Package pdftex.def Info: Section_Microscope/Figures/PL_Setup_Parts.png  used on
                                                   
 l.99 
       <./Section_Microscope/Figures/PL_Setup_Parts.png>]
-<Section_Microscope/Figures/PL_Setup_Zones.png, id=322, 786.68906pt x 589.4522p
+<Section_Microscope/Figures/PL_Setup_Zones.png, id=288, 786.68906pt x 589.4522p
 t>
 File: Section_Microscope/Figures/PL_Setup_Zones.png Graphic file (type png)
 <use Section_Microscope/Figures/PL_Setup_Zones.png>
@@ -811,230 +768,366 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--230
 ter / application-[]notes / optics /
  []
 
-[20]) (Section_ODMR_Antenna/ODMR_Antenna.tex
-File: Section_Ethernet/Figures/Anaconda_PATH.png Graphic file (type png)
-<use Section_Ethernet/Figures/Anaconda_PATH.png>
-Package pdftex.def Info: Section_Ethernet/Figures/Anaconda_PATH.png  used on in
-put line 25.
-(pdftex.def)             Requested size: 668.49586pt x 531.9862pt.
+[20])
+Overfull \hbox (0.158pt too wide) in paragraph at lines 24--24
+[]\OT1/cmr/bx/n/14.4 Mask De-sign In-struc-tions for ODMR An-tenna 
+ []
+
+(Section_ODMR_Antenna/ODMR_Antenna.tex
+<Section_ODMR_Antenna/Figures/RealAntenna.png, id=350, 261.8583pt x 163.5711pt>
+
+File: Section_ODMR_Antenna/Figures/RealAntenna.png Graphic file (type png)
+<use Section_ODMR_Antenna/Figures/RealAntenna.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/RealAntenna.png  used on 
+input line 35.
+(pdftex.def)             Requested size: 261.85765pt x 163.5707pt.
  [21]
-File: Section_Ethernet/Figures/anaconda-prompt.jpg Graphic file (type jpg)
-<use Section_Ethernet/Figures/anaconda-prompt.jpg>
-Package pdftex.def Info: Section_Ethernet/Figures/anaconda-prompt.jpg  used on 
-input line 40.
-(pdftex.def)             Requested size: 788.94556pt x 644.40593pt.
+<Section_ODMR_Antenna/Figures/ShadedUnshaded.png, id=365, 1602.98875pt x 797.98
+125pt>
+File: Section_ODMR_Antenna/Figures/ShadedUnshaded.png Graphic file (type png)
+<use Section_ODMR_Antenna/Figures/ShadedUnshaded.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/ShadedUnshaded.png  used 
+on input line 50.
+(pdftex.def)             Requested size: 1602.98485pt x 797.9793pt.
  [22pdfTeX warning (ext4): destination with the same identifier (name{figure.21
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.44 
-     ]
-File: Section_Ethernet/Figures/install-selenium.jpg Graphic file (type jpg)
-<use Section_Ethernet/Figures/install-selenium.jpg>
-Package pdftex.def Info: Section_Ethernet/Figures/install-selenium.jpg  used on
- input line 50.
-(pdftex.def)             Requested size: 984.67635pt x 516.92998pt.
-File: Section_Ethernet/Figures/confirm-screen.jpg Graphic file (type jpg)
-<use Section_Ethernet/Figures/confirm-screen.jpg>
-Package pdftex.def Info: Section_Ethernet/Figures/confirm-screen.jpg  used on i
-nput line 61.
-(pdftex.def)             Requested size: 966.6089pt x 201.75325pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.22
+l.61 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.61 
+      <./Section_ODMR_Antenna/Figures/RealAntenna.png> <./Section_ODMR_Antenna/
+Figures/ShadedUnshaded.png>]
+<Section_ODMR_Antenna/Figures/PrintButton.png, id=374, 1927.2pt x 1084.05pt>
+File: Section_ODMR_Antenna/Figures/PrintButton.png Graphic file (type png)
+<use Section_ODMR_Antenna/Figures/PrintButton.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/PrintButton.png  used on 
+input line 69.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+<Section_ODMR_Antenna/Figures/PlotModelWindow.png, id=375, 1927.2pt x 1084.05pt
+>
+File: Section_ODMR_Antenna/Figures/PlotModelWindow.png Graphic file (type png)
+<use Section_ODMR_Antenna/Figures/PlotModelWindow.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/PlotModelWindow.png  used
+ on input line 76.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+<Section_ODMR_Antenna/Figures/PrintOpenScreen.png, id=377, 1927.2pt x 1084.05pt
+>
+File: Section_ODMR_Antenna/Figures/PrintOpenScreen.png Graphic file (type png)
+<use Section_ODMR_Antenna/Figures/PrintOpenScreen.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/PrintOpenScreen.png  used
+ on input line 86.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.23
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.65 
+l.90 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.2
-3}) has been already used, duplicate ignored
+4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.65 
-     ]
-File: Section_Ethernet/Figures/WebDriverDownload.png Graphic file (type png)
-<use Section_Ethernet/Figures/WebDriverDownload.png>
-Package pdftex.def Info: Section_Ethernet/Figures/WebDriverDownload.png  used o
-n input line 73.
-(pdftex.def)             Requested size: 1371.11916pt x 770.87813pt.
-File: Section_Ethernet/Figures/PickWebDriver.png Graphic file (type png)
-<use Section_Ethernet/Figures/PickWebDriver.png>
-Package pdftex.def Info: Section_Ethernet/Figures/PickWebDriver.png  used on in
-put line 84.
-(pdftex.def)             Requested size: 1371.11916pt x 770.87813pt.
- [24pdfTeX warning (ext4): destination with the same identifier (name{figure.24
-}) has been already used, duplicate ignored
+l.90 
+      <./Section_ODMR_Antenna/Figures/PrintButton.png> <./Section_ODMR_Antenna/
+Figures/PlotModelWindow.png>]
+<Section_ODMR_Antenna/Figures/ChoosePlotter1.png, id=390, 1927.2pt x 1084.05pt>
+
+File: Section_ODMR_Antenna/Figures/ChoosePlotter1.png Graphic file (type png)
+<use Section_ODMR_Antenna/Figures/ChoosePlotter1.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/ChoosePlotter1.png  used 
+on input line 96.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+
+Underfull \hbox (badness 2735) in paragraph at lines 98--98
+[]\OT1/cmr/m/n/10 Figure 26: []Selection of Au-to-CAD PDF (High Qual-ity Print)
+.pc3 in
+ []
+
+<Section_ODMR_Antenna/Figures/CustomizePlotter.png, id=393, 1927.2pt x 1084.05p
+t>
+File: Section_ODMR_Antenna/Figures/CustomizePlotter.png Graphic file (type png)
+
+<use Section_ODMR_Antenna/Figures/CustomizePlotter.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/CustomizePlotter.png  use
+d on input line 107.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.25}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.88 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
-5}) has been already used, duplicate ignored
+l.111 	
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.26}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.88 
-     ]
-Overfull \hbox (105.89731pt too wide) in paragraph at lines 103--109
-\OT1/cmr/m/n/10 access.morgan.edu/guest/ngnauth.php?" is a fixed string. "&mac=
-f8:b1:56:b3:7a:0a&[]browser=1"
- []
+l.111 	
+        <./Section_ODMR_Antenna/Figures/PrintOpenScreen.png> <./Section_ODMR_An
+tenna/Figures/ChoosePlotter1.png>]
+<Section_ODMR_Antenna/Figures/PDFOptionsWindow.png, id=406, 1927.2pt x 1084.05p
+t>
+File: Section_ODMR_Antenna/Figures/PDFOptionsWindow.png Graphic file (type png)
 
-\openout3 = `LabReport.pyg'.
-
-
-(_minted-LabReport/DEC3D4FF01326EC8A1CB6BFDA1012D435D3AFA5DC583317D9CC853A03425
-FACF.pygtex [25pdfTeX warning (ext4): destination with the same identifier (nam
-e{figure.26}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.5 \PYG{k+kn}{import} \PYG{n+nn}{os}
-                                     ]
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 15--15
-\OT1/cmtt/m/n/10 driver[].[]get([]"https://secure-access.morgan.edu/guest/ngnau
-th.php?[]|  
- []
-
-
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 18--18
-\OT1/cmtt/m/n/10 driver[].[]find_element_by_id([]ID_formcd662c6a_weblogin_user
-[])|  
- []
-
-
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 20--20
-\OT1/cmtt/m/n/10 driver[].[]find_element_by_id([]ID_formcd662c6a_weblogin_pass
-word[])|  
- []
-
-
-Overfull \hbox (85.49625pt too wide) in paragraph at lines 22--22
-\OT1/cmtt/m/n/10 driver[].[]find_element_by_id([]ID_formcd662c6a_weblogin_visi
-tor_accept_terms[])|  
- []
-
-
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 24--24
-\OT1/cmtt/m/n/10 driver[].[]find_element_by_id([]ID_formcd662c6a_weblogin_subm
-it[])|  
- []
-
+<use Section_ODMR_Antenna/Figures/PDFOptionsWindow.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/PDFOptionsWindow.png  use
+d on input line 114.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+<Section_ODMR_Antenna/Figures/PDFOptionsWindow1.png, id=408, 1927.2pt x 1084.05
+pt>
+File: Section_ODMR_Antenna/Figures/PDFOptionsWindow1.png Graphic file (type png
 )
-File: Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg Graphic file (type
- jpg)
-<use Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg>
-Package pdftex.def Info: Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg
-  used on input line 164.
-(pdftex.def)             Requested size: 1050.9237pt x 602.24852pt.
- [26]
-File: Section_Ethernet/Figures/create-task.jpg Graphic file (type jpg)
-<use Section_Ethernet/Figures/create-task.jpg>
-Package pdftex.def Info: Section_Ethernet/Figures/create-task.jpg  used on inpu
-t line 173.
-(pdftex.def)             Requested size: 1266.72942pt x 736.7507pt.
-File: Section_Ethernet/Figures/TaskCreationName.png Graphic file (type png)
-<use Section_Ethernet/Figures/TaskCreationName.png>
-Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationName.png  used on
- input line 183.
-(pdftex.def)             Requested size: 473.51788pt x 359.84349pt.
- [27pdfTeX warning (ext4): destination with the same identifier (name{figure.27
+<use Section_ODMR_Antenna/Figures/PDFOptionsWindow1.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/PDFOptionsWindow1.png  us
+ed on input line 124.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.27
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.128 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+28}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.128 
+       <./Section_ODMR_Antenna/Figures/CustomizePlotter.png> <./Section_ODMR_An
+tenna/Figures/PDFOptionsWindow.png>]
+<Section_ODMR_Antenna/Figures/CustomizePaperSize.png, id=418, 1927.2pt x 1084.0
+5pt>
+File: Section_ODMR_Antenna/Figures/CustomizePaperSize.png Graphic file (type pn
+g)
+<use Section_ODMR_Antenna/Figures/CustomizePaperSize.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/CustomizePaperSize.png  u
+sed on input line 134.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+<Section_ODMR_Antenna/Figures/ChoosePaperType1.png, id=421, 1927.2pt x 1084.05p
+t>
+File: Section_ODMR_Antenna/Figures/ChoosePaperType1.png Graphic file (type png)
+
+<use Section_ODMR_Antenna/Figures/ChoosePaperType1.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/ChoosePaperType1.png  use
+d on input line 145.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ [26pdfTeX warning (ext4): destination with the same identifier (name{figure.29
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.149 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+30}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.149 
+       <./Section_ODMR_Antenna/Figures/PDFOptionsWindow1.png> <./Section_ODMR_A
+ntenna/Figures/CustomizePaperSize.png>]
+<Section_ODMR_Antenna/Figures/ChoosePaperType2.png, id=433, 1927.2pt x 1084.05p
+t>
+File: Section_ODMR_Antenna/Figures/ChoosePaperType2.png Graphic file (type png)
+
+<use Section_ODMR_Antenna/Figures/ChoosePaperType2.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/ChoosePaperType2.png  use
+d on input line 152.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+<Section_ODMR_Antenna/Figures/ChangePaperMargins1.png, id=435, 1927.2pt x 1084.
+05pt>
+File: Section_ODMR_Antenna/Figures/ChangePaperMargins1.png Graphic file (type p
+ng)
+<use Section_ODMR_Antenna/Figures/ChangePaperMargins1.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/ChangePaperMargins1.png  
+used on input line 162.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.31
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.166 	
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.32}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.166 	
+        <./Section_ODMR_Antenna/Figures/ChoosePaperType1.png> <./Section_ODMR_A
+ntenna/Figures/ChoosePaperType2.png>]
+<Section_ODMR_Antenna/Figures/ChangePaperMargins2.png, id=445, 1927.2pt x 1084.
+05pt>
+File: Section_ODMR_Antenna/Figures/ChangePaperMargins2.png Graphic file (type p
+ng)
+<use Section_ODMR_Antenna/Figures/ChangePaperMargins2.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/ChangePaperMargins2.png  
+used on input line 172.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+<Section_ODMR_Antenna/Figures/FolderOfCustomPlotters.png, id=447, 1927.2pt x 10
+84.05pt>
+File: Section_ODMR_Antenna/Figures/FolderOfCustomPlotters.png Graphic file (typ
+e png)
+<use Section_ODMR_Antenna/Figures/FolderOfCustomPlotters.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/FolderOfCustomPlotters.pn
+g  used on input line 183.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.33
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.187 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-28}) has been already used, duplicate ignored
+34}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.187 
-      ]
-File: Section_Ethernet/Figures/TaskCreationTrigger.png Graphic file (type png)
-<use Section_Ethernet/Figures/TaskCreationTrigger.png>
-Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationTrigger.png  used
- on input line 195.
-(pdftex.def)             Requested size: 752.81065pt x 469.75386pt.
-File: Section_Ethernet/Figures/TaskCreationAction.png Graphic file (type png)
-<use Section_Ethernet/Figures/TaskCreationAction.png>
-Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationAction.png  used 
-on input line 206.
-(pdftex.def)             Requested size: 692.5858pt x 462.22574pt.
- [28pdfTeX warning (ext4): destination with the same identifier (name{figure.29
-}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.209 	\end{figure}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.30}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.209 	\end{figure}
-                   ]
-File: Section_Ethernet/Figures/TaskCreationConditions.png Graphic file (type pn
-g)
-<use Section_Ethernet/Figures/TaskCreationConditions.png>
-Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationConditions.png  u
-sed on input line 217.
-(pdftex.def)             Requested size: 484.05725pt x 372.64127pt.
- [29pdfTeX warning (ext4): destination with the same identifier (name{figure.31
-}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.221 
-      ]
-File: Section_Ethernet/Figures/TaskCreationSettings.png Graphic file (type png)
+       <./Section_ODMR_Antenna/Figures/ChangePaperMargins1.png> <./Section_ODMR
+_Antenna/Figures/ChangePaperMargins2.png>]
+<Section_ODMR_Antenna/Figures/DefinePlotArea.png, id=459, 1927.2pt x 1084.05pt>
 
-<use Section_Ethernet/Figures/TaskCreationSettings.png>
-Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationSettings.png  use
-d on input line 226.
-(pdftex.def)             Requested size: 487.8213pt x 371.88846pt.
-File: Section_Ethernet/Figures/TaskRun.png Graphic file (type png)
-<use Section_Ethernet/Figures/TaskRun.png>
-Package pdftex.def Info: Section_Ethernet/Figures/TaskRun.png  used on input li
-ne 237.
-(pdftex.def)             Requested size: 1264.72192pt x 790.45119pt.
- [30pdfTeX warning (ext4): destination with the same identifier (name{figure.32
+File: Section_ODMR_Antenna/Figures/DefinePlotArea.png Graphic file (type png)
+<use Section_ODMR_Antenna/Figures/DefinePlotArea.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/DefinePlotArea.png  used 
+on input line 195.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+<Section_ODMR_Antenna/Figures/PrintQuality.png, id=461, 1927.2pt x 1084.05pt>
+File: Section_ODMR_Antenna/Figures/PrintQuality.png Graphic file (type png)
+<use Section_ODMR_Antenna/Figures/PrintQuality.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/PrintQuality.png  used on
+ input line 205.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.35
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.240 	\end{figure}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.33}) has been already used, duplicate ignored
+l.209 	
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.36}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.240 	\end{figure}
-                   ]) [31pdfTeX warning (ext4): destination with the same ident
-ifier (name{figure.34}) has been already used, duplicate ignored
+l.209 	
+        <./Section_ODMR_Antenna/Figures/FolderOfCustomPlotters.png> <./Section_
+ODMR_Antenna/Figures/DefinePlotArea.png>]
+<Section_ODMR_Antenna/Figures/PrintLineweights.png, id=474, 1927.2pt x 1084.05p
+t>
+File: Section_ODMR_Antenna/Figures/PrintLineweights.png Graphic file (type png)
+
+<use Section_ODMR_Antenna/Figures/PrintLineweights.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/PrintLineweights.png  use
+d on input line 215.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+<Section_ODMR_Antenna/Figures/OpenPdfInkscape.png, id=476, 1927.2pt x 1084.05pt
+>
+File: Section_ODMR_Antenna/Figures/OpenPdfInkscape.png Graphic file (type png)
+<use Section_ODMR_Antenna/Figures/OpenPdfInkscape.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/OpenPdfInkscape.png  used
+ on input line 234.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.37
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.238 	
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.38}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.238 	
+        <./Section_ODMR_Antenna/Figures/PrintQuality.png> <./Section_ODMR_Anten
+na/Figures/PrintLineweights.png>]
+<Section_ODMR_Antenna/Figures/SelectUngroup.png, id=490, 1927.2pt x 1084.05pt>
+File: Section_ODMR_Antenna/Figures/SelectUngroup.png Graphic file (type png)
+<use Section_ODMR_Antenna/Figures/SelectUngroup.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/SelectUngroup.png  used o
+n input line 244.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+<Section_ODMR_Antenna/Figures/EditNodes.png, id=492, 1927.2pt x 1084.05pt>
+File: Section_ODMR_Antenna/Figures/EditNodes.png Graphic file (type png)
+<use Section_ODMR_Antenna/Figures/EditNodes.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/EditNodes.png  used on in
+put line 255.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.39
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.259 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+40}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.259 
+       <./Section_ODMR_Antenna/Figures/OpenPdfInkscape.png> <./Section_ODMR_Ant
+enna/Figures/SelectUngroup.png>]
+<Section_ODMR_Antenna/Figures/JoinNodes.png, id=504, 1927.2pt x 1084.05pt>
+File: Section_ODMR_Antenna/Figures/JoinNodes.png Graphic file (type png)
+<use Section_ODMR_Antenna/Figures/JoinNodes.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/JoinNodes.png  used on in
+put line 266.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+<Section_ODMR_Antenna/Figures/FillAndStroke.png, id=506, 1927.2pt x 1084.05pt>
+File: Section_ODMR_Antenna/Figures/FillAndStroke.png Graphic file (type png)
+<use Section_ODMR_Antenna/Figures/FillAndStroke.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/FillAndStroke.png  used o
+n input line 280.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ [32pdfTeX warning (ext4): destination with the same identifier (name{figure.41
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.284 	
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.42}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.284 	
+        <./Section_ODMR_Antenna/Figures/EditNodes.png> <./Section_ODMR_Antenna/
+Figures/JoinNodes.png>]
+<Section_ODMR_Antenna/Figures/FillSolidColor.png, id=519, 1927.2pt x 1084.05pt>
+
+File: Section_ODMR_Antenna/Figures/FillSolidColor.png Graphic file (type png)
+<use Section_ODMR_Antenna/Figures/FillSolidColor.png>
+Package pdftex.def Info: Section_ODMR_Antenna/Figures/FillSolidColor.png  used 
+on input line 289.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+) [33pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.27 \end{document}
-                   ] (LabReport.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.44}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.27 \end{document}
+                    <./Section_ODMR_Antenna/Figures/FillAndStroke.png> <./Secti
+on_ODMR_Antenna/Figures/FillSolidColor.png>] (LabReport.aux)
 Package rerunfilecheck Info: File `LabReport.out' has not changed.
-(rerunfilecheck)             Checksum: 2EB0FA5481E65280DDBD8E9FEC717FD4;4973.
+(rerunfilecheck)             Checksum: FACF24EE3FA1320EA8B96FA32A3B0815;4181.
 runsystem(del LabReport.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 11998 strings out of 479334
- 198047 string characters out of 2866921
- 555886 words of memory out of 3000000
- 29095 multiletter control sequences out of 15000+200000
- 408837 words of font info for 46 fonts, out of 3000000 for 9000
+ 12183 strings out of 479334
+ 205041 string characters out of 2866921
+ 558045 words of memory out of 3000000
+ 29237 multiletter control sequences out of 15000+200000
+ 409498 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,9n,74p,407b,643s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 72i,9n,74p,436b,643s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/font
-s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:
-/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on LabReport.pdf (32 pages, 2063091 bytes).
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program File
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/
+Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/font
+s/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on LabReport.pdf (34 pages, 6878763 bytes).
 PDF statistics:
- 547 PDF objects out of 1000 (max. 8388607)
- 150 named destinations out of 1000 (max. 500000)
- 293 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 622 PDF objects out of 1000 (max. 8388607)
+ 168 named destinations out of 1000 (max. 500000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
