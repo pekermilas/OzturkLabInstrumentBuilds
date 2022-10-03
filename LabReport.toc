@@ -25,3 +25,6 @@
 \contentsline {subsection}{\numberline {3.1}ODMR Antenna manufacturing with a mask}{21}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Mask Design}{21}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}Lithography on Copper Laminate}{33}{subsubsection.3.1.2}%
+\contentsline {section}{\numberline {4}Optically Detected Magnetic Resonance (ODMR)}{34}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Data acquisition and initial processing}{34}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Spectrometer properties and dark background counts}{34}{subsubsection.4.1.1}%
