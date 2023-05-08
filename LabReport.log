@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.1)  1 OCT 2022 19:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.1)  23 OCT 2022 15:31
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -339,6 +339,13 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen165
 \SOUL@ulht=\dimen166
 )
+(C:\Users\peker\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip56
+\multirow@cntb=\count301
+\multirow@dima=\skip57
+\bigstrutjot=\dimen167
+)
 (C:\Users\peker\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
@@ -368,7 +375,7 @@ runsystem(del LabReport.aex)...executed.
 (C:\Users\peker\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count301
+\l__color_backend_stack_int=\count302
 \l__pdf_internal_box=\box60
 )
 
@@ -378,25 +385,25 @@ LaTeX Warning: Unused global option(s):
 (LabReport.aux)
 \openout1 = `LabReport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-Package hyperref Info: Link coloring OFF on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+Package hyperref Info: Link coloring OFF on input line 11.
  (LabReport.out) (LabReport.out)
 \@outlinefile=\write5
 \openout5 = `LabReport.out'.
@@ -405,16 +412,16 @@ Package hyperref Info: Link coloring OFF on input line 10.
 (C:\Users\peker\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count302
-\scratchdimen=\dimen167
+\scratchcounter=\count303
+\scratchdimen=\dimen168
 \scratchbox=\box61
-\nofMPsegments=\count303
-\nofMParguments=\count304
+\nofMPsegments=\count304
+\nofMParguments=\count305
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count305
-\MPscratchDim=\dimen168
-\MPnumerator=\count306
-\makeMPintoPDFobject=\count307
+\MPscratchCnt=\count306
+\MPscratchDim=\dimen169
+\MPnumerator=\count307
+\makeMPintoPDFobject=\count308
 \everyMPtoPDFconversion=\toks29
 )
 (C:\Users\peker\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -428,11 +435,11 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 15.
  [1
 
 {C:/Users/peker/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
@@ -450,16 +457,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.16 \newpage
+l.17 \newpage
               [1] (Section_Ethernet/Section_Ethernet.tex
-<Section_Ethernet/Figures/Anaconda_PATH.png, id=137, 668.4975pt x 531.9875pt>
+<Section_Ethernet/Figures/Anaconda_PATH.png, id=147, 668.4975pt x 531.9875pt>
 File: Section_Ethernet/Figures/Anaconda_PATH.png Graphic file (type png)
 <use Section_Ethernet/Figures/Anaconda_PATH.png>
 Package pdftex.def Info: Section_Ethernet/Figures/Anaconda_PATH.png  used on in
 put line 25.
 (pdftex.def)             Requested size: 668.49586pt x 531.9862pt.
  [2]
-<Section_Ethernet/Figures/anaconda-prompt.jpg, id=150, 788.9475pt x 644.4075pt>
+<Section_Ethernet/Figures/anaconda-prompt.jpg, id=160, 788.9475pt x 644.4075pt>
 
 File: Section_Ethernet/Figures/anaconda-prompt.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/anaconda-prompt.jpg>
@@ -473,14 +480,14 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.44 
       <./Section_Ethernet/Figures/Anaconda_PATH.png (PNG copy)>]
-<Section_Ethernet/Figures/install-selenium.jpg, id=157, 984.67876pt x 516.93124
+<Section_Ethernet/Figures/install-selenium.jpg, id=167, 984.67876pt x 516.93124
 pt>
 File: Section_Ethernet/Figures/install-selenium.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/install-selenium.jpg>
 Package pdftex.def Info: Section_Ethernet/Figures/install-selenium.jpg  used on
  input line 50.
 (pdftex.def)             Requested size: 984.67635pt x 516.92998pt.
-<Section_Ethernet/Figures/confirm-screen.jpg, id=159, 966.61125pt x 201.75375pt
+<Section_Ethernet/Figures/confirm-screen.jpg, id=169, 966.61125pt x 201.75375pt
 >
 File: Section_Ethernet/Figures/confirm-screen.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/confirm-screen.jpg>
@@ -501,14 +508,14 @@ s been already used, duplicate ignored
 l.65 
       <./Section_Ethernet/Figures/anaconda-prompt.jpg> <./Section_Ethernet/Figu
 res/install-selenium.jpg>]
-<Section_Ethernet/Figures/WebDriverDownload.png, id=168, 1371.1225pt x 770.88pt
+<Section_Ethernet/Figures/WebDriverDownload.png, id=178, 1371.1225pt x 770.88pt
 >
 File: Section_Ethernet/Figures/WebDriverDownload.png Graphic file (type png)
 <use Section_Ethernet/Figures/WebDriverDownload.png>
 Package pdftex.def Info: Section_Ethernet/Figures/WebDriverDownload.png  used o
 n input line 73.
 (pdftex.def)             Requested size: 1371.11916pt x 770.87813pt.
-<Section_Ethernet/Figures/PickWebDriver.png, id=170, 1371.1225pt x 770.88pt>
+<Section_Ethernet/Figures/PickWebDriver.png, id=180, 1371.1225pt x 770.88pt>
 File: Section_Ethernet/Figures/PickWebDriver.png Graphic file (type png)
 <use Section_Ethernet/Figures/PickWebDriver.png>
 Package pdftex.def Info: Section_Ethernet/Figures/PickWebDriver.png  used on in
@@ -578,7 +585,7 @@ bmit^^M[])|
  []
 
 )
-<Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg, id=193, 1050.92625pt x
+<Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg, id=203, 1050.92625pt x
  602.25pt>
 File: Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg Graphic file (type
  jpg)
@@ -587,13 +594,13 @@ Package pdftex.def Info: Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg
   used on input line 164.
 (pdftex.def)             Requested size: 1050.9237pt x 602.24852pt.
  [7]
-<Section_Ethernet/Figures/create-task.jpg, id=204, 1266.7325pt x 736.7525pt>
+<Section_Ethernet/Figures/create-task.jpg, id=214, 1266.7325pt x 736.7525pt>
 File: Section_Ethernet/Figures/create-task.jpg Graphic file (type jpg)
 <use Section_Ethernet/Figures/create-task.jpg>
 Package pdftex.def Info: Section_Ethernet/Figures/create-task.jpg  used on inpu
 t line 173.
 (pdftex.def)             Requested size: 1266.72942pt x 736.7507pt.
-<Section_Ethernet/Figures/TaskCreationName.png, id=206, 473.51906pt x 359.84438
+<Section_Ethernet/Figures/TaskCreationName.png, id=216, 473.51906pt x 359.84438
 pt>
 File: Section_Ethernet/Figures/TaskCreationName.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskCreationName.png>
@@ -614,14 +621,14 @@ s been already used, duplicate ignored
 l.187 
        <./Section_Ethernet/Figures/Windows-10-Task-Scheduler.jpg> <./Section_Et
 hernet/Figures/create-task.jpg>]
-<Section_Ethernet/Figures/TaskCreationTrigger.png, id=218, 752.8125pt x 469.755
+<Section_Ethernet/Figures/TaskCreationTrigger.png, id=228, 752.8125pt x 469.755
 pt>
 File: Section_Ethernet/Figures/TaskCreationTrigger.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskCreationTrigger.png>
 Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationTrigger.png  used
  on input line 195.
 (pdftex.def)             Requested size: 752.81065pt x 469.75386pt.
-<Section_Ethernet/Figures/TaskCreationAction.png, id=220, 692.5875pt x 462.2268
+<Section_Ethernet/Figures/TaskCreationAction.png, id=230, 692.5875pt x 462.2268
 7pt>
 File: Section_Ethernet/Figures/TaskCreationAction.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskCreationAction.png>
@@ -642,7 +649,7 @@ as been already used, duplicate ignored
 l.209 	\end{figure}
                     <./Section_Ethernet/Figures/TaskCreationName.png> <./Sectio
 n_Ethernet/Figures/TaskCreationTrigger.png>]
-<Section_Ethernet/Figures/TaskCreationConditions.png, id=233, 484.05844pt x 372
+<Section_Ethernet/Figures/TaskCreationConditions.png, id=243, 484.05844pt x 372
 .64218pt>
 File: Section_Ethernet/Figures/TaskCreationConditions.png Graphic file (type pn
 g)
@@ -657,7 +664,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.221 
        <./Section_Ethernet/Figures/TaskCreationAction.png>]
-<Section_Ethernet/Figures/TaskCreationSettings.png, id=243, 487.8225pt x 371.88
+<Section_Ethernet/Figures/TaskCreationSettings.png, id=253, 487.8225pt x 371.88
 937pt>
 File: Section_Ethernet/Figures/TaskCreationSettings.png Graphic file (type png)
 
@@ -665,7 +672,7 @@ File: Section_Ethernet/Figures/TaskCreationSettings.png Graphic file (type png)
 Package pdftex.def Info: Section_Ethernet/Figures/TaskCreationSettings.png  use
 d on input line 226.
 (pdftex.def)             Requested size: 487.8213pt x 371.88846pt.
-<Section_Ethernet/Figures/TaskRun.png, id=245, 1264.725pt x 790.45313pt>
+<Section_Ethernet/Figures/TaskRun.png, id=255, 1264.725pt x 790.45313pt>
 File: Section_Ethernet/Figures/TaskRun.png Graphic file (type png)
 <use Section_Ethernet/Figures/TaskRun.png>
 Package pdftex.def Info: Section_Ethernet/Figures/TaskRun.png  used on input li
@@ -686,7 +693,7 @@ l.240 	\end{figure}
                     <./Section_Ethernet/Figures/TaskCreationConditions.png> <./
 Section_Ethernet/Figures/TaskCreationSettings.png>])
 (Section_Microscope/Section_Microscope.tex
-<Section_Microscope/Figures/CondenserAndObjective.jpg, id=256, 742.775pt x 507.
+<Section_Microscope/Figures/CondenserAndObjective.jpg, id=266, 742.775pt x 507.
 8975pt>
 File: Section_Microscope/Figures/CondenserAndObjective.jpg Graphic file (type j
 pg)
@@ -701,7 +708,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.26 
       <./Section_Ethernet/Figures/TaskRun.png>]
-<Section_Microscope/Figures/ReflectingMicroscope.jpeg, id=266, 513.92pt x 380.4
+<Section_Microscope/Figures/ReflectingMicroscope.jpeg, id=276, 513.92pt x 380.4
 2125pt>
 File: Section_Microscope/Figures/ReflectingMicroscope.jpeg Graphic file (type j
 pg)
@@ -716,7 +723,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.42 
       <./Section_Microscope/Figures/CondenserAndObjective.jpg>]
-<Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg, id=276, 6
+<Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg, id=286, 6
 05.35838pt x 368.34387pt>
 File: Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg Graph
 ic file (type jpg)
@@ -731,7 +738,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.59 
       <./Section_Microscope/Figures/ReflectingMicroscope.jpeg>]
-<Section_Microscope/Figures/EpiVsConfocal1.png, id=284, 588.69937pt x 292.09125
+<Section_Microscope/Figures/EpiVsConfocal1.png, id=294, 588.69937pt x 292.09125
 pt>
 File: Section_Microscope/Figures/EpiVsConfocal1.png Graphic file (type png)
 <use Section_Microscope/Figures/EpiVsConfocal1.png>
@@ -752,7 +759,7 @@ as been already used, duplicate ignored
 l.75 
       <./Section_Microscope/Figures/Confocal_microscopy_Basic_principle1.jpg> <
 ./Section_Microscope/Figures/EpiVsConfocal1.png>]
-<Section_Microscope/Figures/PL_Setup_Parts.png, id=294, 768.62157pt x 579.66562
+<Section_Microscope/Figures/PL_Setup_Parts.png, id=304, 768.62157pt x 579.66562
 pt>
 File: Section_Microscope/Figures/PL_Setup_Parts.png Graphic file (type png)
 <use Section_Microscope/Figures/PL_Setup_Parts.png>
@@ -766,7 +773,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.99 
       <./Section_Microscope/Figures/PL_Setup_Parts.png>]
-<Section_Microscope/Figures/PL_Setup_Zones.png, id=303, 786.68906pt x 589.4522p
+<Section_Microscope/Figures/PL_Setup_Zones.png, id=313, 786.68906pt x 589.4522p
 t>
 File: Section_Microscope/Figures/PL_Setup_Zones.png Graphic file (type png)
 <use Section_Microscope/Figures/PL_Setup_Zones.png>
@@ -799,12 +806,12 @@ ter / application-[]notes / optics /
  []
 
 [20])
-Overfull \hbox (0.158pt too wide) in paragraph at lines 24--24
+Overfull \hbox (0.158pt too wide) in paragraph at lines 25--25
 []\OT1/cmr/bx/n/14.4 Mask De-sign In-struc-tions for ODMR An-tenna 
  []
 
 (Section_ODMR_Antenna/ODMR_Antenna.tex
-<Section_ODMR_Antenna/Figures/RealAntenna.png, id=365, 261.8583pt x 163.5711pt>
+<Section_ODMR_Antenna/Figures/RealAntenna.png, id=375, 261.8583pt x 163.5711pt>
 
 File: Section_ODMR_Antenna/Figures/RealAntenna.png Graphic file (type png)
 <use Section_ODMR_Antenna/Figures/RealAntenna.png>
@@ -812,7 +819,7 @@ Package pdftex.def Info: Section_ODMR_Antenna/Figures/RealAntenna.png  used on
 input line 35.
 (pdftex.def)             Requested size: 261.85765pt x 163.5707pt.
  [21]
-<Section_ODMR_Antenna/Figures/ShadedUnshaded.png, id=380, 1602.98875pt x 797.98
+<Section_ODMR_Antenna/Figures/ShadedUnshaded.png, id=390, 1602.98875pt x 797.98
 125pt>
 File: Section_ODMR_Antenna/Figures/ShadedUnshaded.png Graphic file (type png)
 <use Section_ODMR_Antenna/Figures/ShadedUnshaded.png>
@@ -833,20 +840,20 @@ as been already used, duplicate ignored
 l.61 
       <./Section_ODMR_Antenna/Figures/RealAntenna.png> <./Section_ODMR_Antenna/
 Figures/ShadedUnshaded.png>]
-<Section_ODMR_Antenna/Figures/PrintButton.png, id=389, 1927.2pt x 1084.05pt>
+<Section_ODMR_Antenna/Figures/PrintButton.png, id=399, 1927.2pt x 1084.05pt>
 File: Section_ODMR_Antenna/Figures/PrintButton.png Graphic file (type png)
 <use Section_ODMR_Antenna/Figures/PrintButton.png>
 Package pdftex.def Info: Section_ODMR_Antenna/Figures/PrintButton.png  used on 
 input line 69.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
-<Section_ODMR_Antenna/Figures/PlotModelWindow.png, id=390, 1927.2pt x 1084.05pt
+<Section_ODMR_Antenna/Figures/PlotModelWindow.png, id=400, 1927.2pt x 1084.05pt
 >
 File: Section_ODMR_Antenna/Figures/PlotModelWindow.png Graphic file (type png)
 <use Section_ODMR_Antenna/Figures/PlotModelWindow.png>
 Package pdftex.def Info: Section_ODMR_Antenna/Figures/PlotModelWindow.png  used
  on input line 76.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
-<Section_ODMR_Antenna/Figures/PrintOpenScreen.png, id=392, 1927.2pt x 1084.05pt
+<Section_ODMR_Antenna/Figures/PrintOpenScreen.png, id=402, 1927.2pt x 1084.05pt
 >
 File: Section_ODMR_Antenna/Figures/PrintOpenScreen.png Graphic file (type png)
 <use Section_ODMR_Antenna/Figures/PrintOpenScreen.png>
@@ -867,7 +874,7 @@ as been already used, duplicate ignored
 l.90 
       <./Section_ODMR_Antenna/Figures/PrintButton.png> <./Section_ODMR_Antenna/
 Figures/PlotModelWindow.png>]
-<Section_ODMR_Antenna/Figures/ChoosePlotter1.png, id=405, 1927.2pt x 1084.05pt>
+<Section_ODMR_Antenna/Figures/ChoosePlotter1.png, id=415, 1927.2pt x 1084.05pt>
 
 File: Section_ODMR_Antenna/Figures/ChoosePlotter1.png Graphic file (type png)
 <use Section_ODMR_Antenna/Figures/ChoosePlotter1.png>
@@ -880,7 +887,7 @@ Underfull \hbox (badness 2735) in paragraph at lines 98--98
 .pc3 in
  []
 
-<Section_ODMR_Antenna/Figures/CustomizePlotter.png, id=408, 1927.2pt x 1084.05p
+<Section_ODMR_Antenna/Figures/CustomizePlotter.png, id=418, 1927.2pt x 1084.05p
 t>
 File: Section_ODMR_Antenna/Figures/CustomizePlotter.png Graphic file (type png)
 
@@ -902,7 +909,7 @@ as been already used, duplicate ignored
 l.111 	
         <./Section_ODMR_Antenna/Figures/PrintOpenScreen.png> <./Section_ODMR_An
 tenna/Figures/ChoosePlotter1.png>]
-<Section_ODMR_Antenna/Figures/PDFOptionsWindow.png, id=421, 1927.2pt x 1084.05p
+<Section_ODMR_Antenna/Figures/PDFOptionsWindow.png, id=431, 1927.2pt x 1084.05p
 t>
 File: Section_ODMR_Antenna/Figures/PDFOptionsWindow.png Graphic file (type png)
 
@@ -910,7 +917,7 @@ File: Section_ODMR_Antenna/Figures/PDFOptionsWindow.png Graphic file (type png)
 Package pdftex.def Info: Section_ODMR_Antenna/Figures/PDFOptionsWindow.png  use
 d on input line 114.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
-<Section_ODMR_Antenna/Figures/PDFOptionsWindow1.png, id=423, 1927.2pt x 1084.05
+<Section_ODMR_Antenna/Figures/PDFOptionsWindow1.png, id=433, 1927.2pt x 1084.05
 pt>
 File: Section_ODMR_Antenna/Figures/PDFOptionsWindow1.png Graphic file (type png
 )
@@ -932,7 +939,7 @@ as been already used, duplicate ignored
 l.128 
        <./Section_ODMR_Antenna/Figures/CustomizePlotter.png> <./Section_ODMR_An
 tenna/Figures/PDFOptionsWindow.png>]
-<Section_ODMR_Antenna/Figures/CustomizePaperSize.png, id=433, 1927.2pt x 1084.0
+<Section_ODMR_Antenna/Figures/CustomizePaperSize.png, id=443, 1927.2pt x 1084.0
 5pt>
 File: Section_ODMR_Antenna/Figures/CustomizePaperSize.png Graphic file (type pn
 g)
@@ -940,7 +947,7 @@ g)
 Package pdftex.def Info: Section_ODMR_Antenna/Figures/CustomizePaperSize.png  u
 sed on input line 134.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
-<Section_ODMR_Antenna/Figures/ChoosePaperType1.png, id=436, 1927.2pt x 1084.05p
+<Section_ODMR_Antenna/Figures/ChoosePaperType1.png, id=446, 1927.2pt x 1084.05p
 t>
 File: Section_ODMR_Antenna/Figures/ChoosePaperType1.png Graphic file (type png)
 
@@ -962,7 +969,7 @@ as been already used, duplicate ignored
 l.149 
        <./Section_ODMR_Antenna/Figures/PDFOptionsWindow1.png> <./Section_ODMR_A
 ntenna/Figures/CustomizePaperSize.png>]
-<Section_ODMR_Antenna/Figures/ChoosePaperType2.png, id=448, 1927.2pt x 1084.05p
+<Section_ODMR_Antenna/Figures/ChoosePaperType2.png, id=458, 1927.2pt x 1084.05p
 t>
 File: Section_ODMR_Antenna/Figures/ChoosePaperType2.png Graphic file (type png)
 
@@ -970,7 +977,7 @@ File: Section_ODMR_Antenna/Figures/ChoosePaperType2.png Graphic file (type png)
 Package pdftex.def Info: Section_ODMR_Antenna/Figures/ChoosePaperType2.png  use
 d on input line 152.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
-<Section_ODMR_Antenna/Figures/ChangePaperMargins1.png, id=450, 1927.2pt x 1084.
+<Section_ODMR_Antenna/Figures/ChangePaperMargins1.png, id=460, 1927.2pt x 1084.
 05pt>
 File: Section_ODMR_Antenna/Figures/ChangePaperMargins1.png Graphic file (type p
 ng)
@@ -992,7 +999,7 @@ as been already used, duplicate ignored
 l.166 	
         <./Section_ODMR_Antenna/Figures/ChoosePaperType1.png> <./Section_ODMR_A
 ntenna/Figures/ChoosePaperType2.png>]
-<Section_ODMR_Antenna/Figures/ChangePaperMargins2.png, id=460, 1927.2pt x 1084.
+<Section_ODMR_Antenna/Figures/ChangePaperMargins2.png, id=470, 1927.2pt x 1084.
 05pt>
 File: Section_ODMR_Antenna/Figures/ChangePaperMargins2.png Graphic file (type p
 ng)
@@ -1000,7 +1007,7 @@ ng)
 Package pdftex.def Info: Section_ODMR_Antenna/Figures/ChangePaperMargins2.png  
 used on input line 172.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
-<Section_ODMR_Antenna/Figures/FolderOfCustomPlotters.png, id=462, 1927.2pt x 10
+<Section_ODMR_Antenna/Figures/FolderOfCustomPlotters.png, id=472, 1927.2pt x 10
 84.05pt>
 File: Section_ODMR_Antenna/Figures/FolderOfCustomPlotters.png Graphic file (typ
 e png)
@@ -1022,14 +1029,14 @@ as been already used, duplicate ignored
 l.187 
        <./Section_ODMR_Antenna/Figures/ChangePaperMargins1.png> <./Section_ODMR
 _Antenna/Figures/ChangePaperMargins2.png>]
-<Section_ODMR_Antenna/Figures/DefinePlotArea.png, id=474, 1927.2pt x 1084.05pt>
+<Section_ODMR_Antenna/Figures/DefinePlotArea.png, id=484, 1927.2pt x 1084.05pt>
 
 File: Section_ODMR_Antenna/Figures/DefinePlotArea.png Graphic file (type png)
 <use Section_ODMR_Antenna/Figures/DefinePlotArea.png>
 Package pdftex.def Info: Section_ODMR_Antenna/Figures/DefinePlotArea.png  used 
 on input line 195.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
-<Section_ODMR_Antenna/Figures/PrintQuality.png, id=476, 1927.2pt x 1084.05pt>
+<Section_ODMR_Antenna/Figures/PrintQuality.png, id=486, 1927.2pt x 1084.05pt>
 File: Section_ODMR_Antenna/Figures/PrintQuality.png Graphic file (type png)
 <use Section_ODMR_Antenna/Figures/PrintQuality.png>
 Package pdftex.def Info: Section_ODMR_Antenna/Figures/PrintQuality.png  used on
@@ -1049,7 +1056,7 @@ as been already used, duplicate ignored
 l.209 	
         <./Section_ODMR_Antenna/Figures/FolderOfCustomPlotters.png> <./Section_
 ODMR_Antenna/Figures/DefinePlotArea.png>]
-<Section_ODMR_Antenna/Figures/PrintLineweights.png, id=489, 1927.2pt x 1084.05p
+<Section_ODMR_Antenna/Figures/PrintLineweights.png, id=499, 1927.2pt x 1084.05p
 t>
 File: Section_ODMR_Antenna/Figures/PrintLineweights.png Graphic file (type png)
 
@@ -1057,7 +1064,7 @@ File: Section_ODMR_Antenna/Figures/PrintLineweights.png Graphic file (type png)
 Package pdftex.def Info: Section_ODMR_Antenna/Figures/PrintLineweights.png  use
 d on input line 215.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
-<Section_ODMR_Antenna/Figures/OpenPdfInkscape.png, id=491, 1927.2pt x 1084.05pt
+<Section_ODMR_Antenna/Figures/OpenPdfInkscape.png, id=501, 1927.2pt x 1084.05pt
 >
 File: Section_ODMR_Antenna/Figures/OpenPdfInkscape.png Graphic file (type png)
 <use Section_ODMR_Antenna/Figures/OpenPdfInkscape.png>
@@ -1078,13 +1085,13 @@ as been already used, duplicate ignored
 l.238 	
         <./Section_ODMR_Antenna/Figures/PrintQuality.png> <./Section_ODMR_Anten
 na/Figures/PrintLineweights.png>]
-<Section_ODMR_Antenna/Figures/SelectUngroup.png, id=505, 1927.2pt x 1084.05pt>
+<Section_ODMR_Antenna/Figures/SelectUngroup.png, id=515, 1927.2pt x 1084.05pt>
 File: Section_ODMR_Antenna/Figures/SelectUngroup.png Graphic file (type png)
 <use Section_ODMR_Antenna/Figures/SelectUngroup.png>
 Package pdftex.def Info: Section_ODMR_Antenna/Figures/SelectUngroup.png  used o
 n input line 244.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
-<Section_ODMR_Antenna/Figures/EditNodes.png, id=507, 1927.2pt x 1084.05pt>
+<Section_ODMR_Antenna/Figures/EditNodes.png, id=517, 1927.2pt x 1084.05pt>
 File: Section_ODMR_Antenna/Figures/EditNodes.png Graphic file (type png)
 <use Section_ODMR_Antenna/Figures/EditNodes.png>
 Package pdftex.def Info: Section_ODMR_Antenna/Figures/EditNodes.png  used on in
@@ -1104,13 +1111,13 @@ as been already used, duplicate ignored
 l.259 
        <./Section_ODMR_Antenna/Figures/OpenPdfInkscape.png> <./Section_ODMR_Ant
 enna/Figures/SelectUngroup.png>]
-<Section_ODMR_Antenna/Figures/JoinNodes.png, id=519, 1927.2pt x 1084.05pt>
+<Section_ODMR_Antenna/Figures/JoinNodes.png, id=529, 1927.2pt x 1084.05pt>
 File: Section_ODMR_Antenna/Figures/JoinNodes.png Graphic file (type png)
 <use Section_ODMR_Antenna/Figures/JoinNodes.png>
 Package pdftex.def Info: Section_ODMR_Antenna/Figures/JoinNodes.png  used on in
 put line 266.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
-<Section_ODMR_Antenna/Figures/FillAndStroke.png, id=521, 1927.2pt x 1084.05pt>
+<Section_ODMR_Antenna/Figures/FillAndStroke.png, id=531, 1927.2pt x 1084.05pt>
 File: Section_ODMR_Antenna/Figures/FillAndStroke.png Graphic file (type png)
 <use Section_ODMR_Antenna/Figures/FillAndStroke.png>
 Package pdftex.def Info: Section_ODMR_Antenna/Figures/FillAndStroke.png  used o
@@ -1130,7 +1137,7 @@ as been already used, duplicate ignored
 l.284 	
         <./Section_ODMR_Antenna/Figures/EditNodes.png> <./Section_ODMR_Antenna/
 Figures/JoinNodes.png>]
-<Section_ODMR_Antenna/Figures/FillSolidColor.png, id=534, 1927.2pt x 1084.05pt>
+<Section_ODMR_Antenna/Figures/FillSolidColor.png, id=544, 1927.2pt x 1084.05pt>
 
 File: Section_ODMR_Antenna/Figures/FillSolidColor.png Graphic file (type png)
 <use Section_ODMR_Antenna/Figures/FillSolidColor.png>
@@ -1138,7 +1145,7 @@ Package pdftex.def Info: Section_ODMR_Antenna/Figures/FillSolidColor.png  used
 on input line 289.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
 )
-Overfull \hbox (26.48134pt too wide) in paragraph at lines 27--27
+Overfull \hbox (26.48134pt too wide) in paragraph at lines 28--28
 []\OT1/cmr/bx/n/14.4 Optically De-tected Mag-netic Res-o-nance (ODMR) 
  []
 
@@ -1155,42 +1162,133 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.8 
      <./Section_ODMR_Antenna/Figures/FillAndStroke.png> <./Section_ODMR_Antenna
-/Figures/FillSolidColor.png>]) [34] (LabReport.aux)
+/Figures/FillSolidColor.png>] [34]
+<Section_ODMR/Figures/BGCounts_AsFunctionOfIntegrationTime.png, id=563, 462.528
+pt x 346.896pt>
+File: Section_ODMR/Figures/BGCounts_AsFunctionOfIntegrationTime.png Graphic fil
+e (type png)
+<use Section_ODMR/Figures/BGCounts_AsFunctionOfIntegrationTime.png>
+Package pdftex.def Info: Section_ODMR/Figures/BGCounts_AsFunctionOfIntegrationT
+ime.png  used on input line 68.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+<Section_ODMR/Figures/Pixel2550TimeEvolutionOfCounts.png, id=564, 462.528pt x 3
+46.896pt>
+File: Section_ODMR/Figures/Pixel2550TimeEvolutionOfCounts.png Graphic file (typ
+e png)
+<use Section_ODMR/Figures/Pixel2550TimeEvolutionOfCounts.png>
+Package pdftex.def Info: Section_ODMR/Figures/Pixel2550TimeEvolutionOfCounts.pn
+g  used on input line 75.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ [35
+pdfTeX warning (ext4): destination with the same identifier (name{figure.45}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.79 
+      <./Section_ODMR/Figures/BGCounts_AsFunctionOfIntegrationTime.png>]
+<Section_ODMR/Figures/Pixel2550_100msFits.png, id=576, 462.528pt x 346.896pt>
+File: Section_ODMR/Figures/Pixel2550_100msFits.png Graphic file (type png)
+<use Section_ODMR/Figures/Pixel2550_100msFits.png>
+Package pdftex.def Info: Section_ODMR/Figures/Pixel2550_100msFits.png  used on 
+input line 92.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+
+[36
+pdfTeX warning (ext4): destination with the same identifier (name{figure.46}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.97 
+      <./Section_ODMR/Figures/Pixel2550TimeEvolutionOfCounts.png>]
+<Section_ODMR/Figures/Pixel2550_500msFits.png, id=587, 462.528pt x 346.896pt>
+File: Section_ODMR/Figures/Pixel2550_500msFits.png Graphic file (type png)
+<use Section_ODMR/Figures/Pixel2550_500msFits.png>
+Package pdftex.def Info: Section_ODMR/Figures/Pixel2550_500msFits.png  used on 
+input line 100.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+<Section_ODMR/Figures/Pixel2550_1000msFits.png, id=588, 462.528pt x 346.896pt>
+File: Section_ODMR/Figures/Pixel2550_1000msFits.png Graphic file (type png)
+<use Section_ODMR/Figures/Pixel2550_1000msFits.png>
+Package pdftex.def Info: Section_ODMR/Figures/Pixel2550_1000msFits.png  used on
+ input line 108.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ [37
+pdfTeX warning (ext4): destination with the same identifier (name{figure.47}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.113 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.48}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.113 
+       <./Section_ODMR/Figures/Pixel2550_100msFits.png> <./Section_ODMR/Figures
+/Pixel2550_500msFits.png>]
+<Section_ODMR/Figures/Pixel2550_2000msFits.png, id=595, 462.528pt x 346.896pt>
+File: Section_ODMR/Figures/Pixel2550_2000msFits.png Graphic file (type png)
+<use Section_ODMR/Figures/Pixel2550_2000msFits.png>
+Package pdftex.def Info: Section_ODMR/Figures/Pixel2550_2000msFits.png  used on
+ input line 116.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ [38
+pdfTeX warning (ext4): destination with the same identifier (name{figure.49}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.130 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.50}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.130 
+       <./Section_ODMR/Figures/Pixel2550_1000msFits.png> <./Section_ODMR/Figure
+s/Pixel2550_2000msFits.png>] [39
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.186 
+      ]) [40] (LabReport.aux)
 Package rerunfilecheck Info: File `LabReport.out' has not changed.
-(rerunfilecheck)             Checksum: 373D548FF8734E52DE150AA1981B5ED0;5061.
+(rerunfilecheck)             Checksum: 097EE39B7EF5A7409D1C55412B3CC6A8;5608.
 runsystem(del LabReport.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 12799 strings out of 475389
- 231650 string characters out of 2777000
- 616582 words of memory out of 3000000
- 33765 multiletter control sequences out of 15000+600000
+ 12939 strings out of 475389
+ 235609 string characters out of 2777000
+ 618197 words of memory out of 3000000
+ 33879 multiletter control sequences out of 15000+600000
  475327 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,9n,77p,436b,871s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,10n,77p,436b,871s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\peker\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/peker/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/peker/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/peker/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmbx8.pfb><C:/Users/peker/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/peker/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/peker/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/peker/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/pek
-er/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Us
-ers/peker/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb
-><C:/Users/peker/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mr7.pfb><C:/Users/peker/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb><C:/Users/peker/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><C:/Users/peker/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy5.pfb><C:/Users/peker/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/peker/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/peker/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on LabReport.pdf (35 pages, 6898563 bytes).
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/peker/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/peker/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/peker/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/pe
+ker/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
+Users/peker/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.
+pfb><C:/Users/peker/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr5.pfb><C:/Users/peker/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr6.pfb><C:/Users/peker/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb><C:/Users/peker/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><C:/Users/peker/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/peker/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/peker/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/peker/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/pek
+er/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on LabReport.pdf (41 pages, 7123099 bytes).
 PDF statistics:
- 660 PDF objects out of 1000 (max. 8388607)
- 172 named destinations out of 1000 (max. 500000)
- 405 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 739 PDF objects out of 1000 (max. 8388607)
+ 187 named destinations out of 1000 (max. 500000)
+ 451 words of extra memory for PDF output out of 10000 (max. 10000000)
 
