@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.1)  23 OCT 2022 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.1)  4 JUN 2023 21:23
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1283,12 +1283,14 @@ lic/amsfonts/cm/cmr7.pfb><C:/Users/peker/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmr8.pfb><C:/Users/peker/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/peker/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/peker/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/peker/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/pek
-er/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on LabReport.pdf (41 pages, 7123099 bytes).
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/peker/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/peke
+r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/U
+sers/peker/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.p
+fb>
+Output written on LabReport.pdf (41 pages, 7132408 bytes).
 PDF statistics:
- 739 PDF objects out of 1000 (max. 8388607)
+ 744 PDF objects out of 1000 (max. 8388607)
  187 named destinations out of 1000 (max. 500000)
  451 words of extra memory for PDF output out of 10000 (max. 10000000)
 
