@@ -1,0 +1,30 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{k+kn}{from} \PYG{n+nn}{selenium} \PYG{k+kn}{import} \PYG{n}{webdriver}
+\PYG{k+kn}{from} \PYG{n+nn}{selenium.webdriver.common.keys} \PYG{k+kn}{import} \PYG{n}{Keys}
+\PYG{k+kn}{import} \PYG{n+nn}{time}
+\PYG{k+kn}{import} \PYG{n+nn}{os}
+
+\PYG{n}{temp} \PYG{o}{=} \PYG{n}{os}\PYG{o}{.}\PYG{n}{popen}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}ping 8.8.8.8\PYGZdq{}}\PYG{p}{)}\PYG{o}{.}\PYG{n}{read}\PYG{p}{()}
+\PYG{n}{test\PYGZus{}connection1} \PYG{o}{=} \PYG{n}{temp}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}PING: transmit failed. General failure.\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{test\PYGZus{}connection2} \PYG{o}{=} \PYG{n}{temp}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Request timed out.\PYGZsq{}}\PYG{p}{)}
+
+\PYG{k}{if} \PYG{p}{(}\PYG{n}{test\PYGZus{}connection1} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{0} \PYG{o+ow}{and} \PYG{n}{test\PYGZus{}connection2} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{0}\PYG{p}{):}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Already connected. Exiting!!!\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{else}\PYG{p}{:}
+    \PYG{n}{driver} \PYG{o}{=} \PYG{n}{webdriver}\PYG{o}{.}\PYG{n}{Chrome}\PYG{p}{()}
+    \PYG{n}{driver}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}https://secure\PYGZhy{}access.morgan.edu/guest/ngnauth.php?}
+                \PYG{o}{\PYGZam{}}\PYG{n}{mac}\PYG{o}{=}\PYG{n}{f8}\PYG{p}{:}\PYG{n}{b1}\PYG{p}{:}\PYG{l+m+mi}{56}\PYG{p}{:}\PYG{n}{b3}\PYG{p}{:}\PYG{l+m+mi}{7}\PYG{n}{a}\PYG{p}{:}\PYG{l+m+mi}{0}\PYG{n}{a}\PYG{o}{\PYGZam{}}\PYG{n}{\PYGZus{}browser}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{l+s+s2}{\PYGZdq{})}
+
+    \PYG{n}{elem1} \PYG{o}{=} \PYG{n}{driver}\PYG{o}{.}\PYG{n}{find\PYGZus{}element\PYGZus{}by\PYGZus{}id}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}ID\PYGZus{}formcd662c6a\PYGZus{}weblogin\PYGZus{}user\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{elem1}\PYG{o}{.}\PYG{n}{send\PYGZus{}keys}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Peker.Milas\PYGZdq{}}\PYG{p}{)}
+    \PYG{n}{elem2} \PYG{o}{=} \PYG{n}{driver}\PYG{o}{.}\PYG{n}{find\PYGZus{}element\PYGZus{}by\PYGZus{}id}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}ID\PYGZus{}formcd662c6a\PYGZus{}weblogin\PYGZus{}password\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{elem2}\PYG{o}{.}\PYG{n}{send\PYGZus{}keys}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Onder1981\PYGZdq{}}\PYG{p}{)}
+    \PYG{n}{elem3} \PYG{o}{=} \PYG{n}{driver}\PYG{o}{.}\PYG{n}{find\PYGZus{}element\PYGZus{}by\PYGZus{}id}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}ID\PYGZus{}formcd662c6a\PYGZus{}weblogin\PYGZus{}visitor\PYGZus{}accept\PYGZus{}terms\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{elem3}\PYG{o}{.}\PYG{n}{click}\PYG{p}{()}
+    \PYG{n}{elem4} \PYG{o}{=} \PYG{n}{driver}\PYG{o}{.}\PYG{n}{find\PYGZus{}element\PYGZus{}by\PYGZus{}id}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}ID\PYGZus{}formcd662c6a\PYGZus{}weblogin\PYGZus{}submit\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{elem4}\PYG{o}{.}\PYG{n}{click}\PYG{p}{()}
+    \PYG{n}{time}\PYG{o}{.}\PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{)}
+
+    \PYG{n}{driver}\PYG{o}{.}\PYG{n}{close}\PYG{p}{()}
+\PYG{n}{os}\PYG{o}{.}\PYG{n}{system}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}taskkill /F /im python.exe\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

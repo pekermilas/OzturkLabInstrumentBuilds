@@ -50,14 +50,15 @@ background in a different way.
 A common method for cleaning up the actual spectra from background is 
 subtracting a snapshot of the these counts which was measured in the absence 
 input light. In Figure\ref{fig:BGasIntTimes}, an example of 
-background counts we acquired in our system is given as a function of exposure times. 
-This is an easy to execute and fast method, and it serves well the qualitative analysis 
-of emission/absorption spectra. In case of quantitative analysis, a better understanding 
-of the background counts in statistical sense is required. To achieve a statistically 
-sound description of background counts at the pixel level, one can sample them and 
-attempt to fit a model to count distribution of each pixel. Since at the short exposure 
-times the counts expected to be read noise dominated, a Gaussian model is usually good 
-enough for fitting the distribution. Background count distributions of a random pixel
+background counts we acquired in our system is given as a function of exposure 
+times. This is an easy to execute and fast method, and it serves well the 
+qualitative analysis of emission/absorption spectra. In case of quantitative 
+analysis, a better understanding of the background counts in statistical sense is 
+required. To achieve a statistically sound description of background counts at the 
+pixel level, one can sample them and attempt to fit a model to count distribution 
+of each pixel. Since at the short exposure times the counts expected to be read 
+noise dominated, a Gaussian model is usually good enough for fitting the 
+distribution. Background count distributions of a random pixel
 in our spectrometer given in Figure\ref{fig:BGofRandomPixelasIntTimes}, is a good
 example of this behavior. Nevertheless, both by unknown sampling amount
 of counts per pixel and by the requirement of manual parameter estimation per
@@ -82,10 +83,9 @@ expectation-maximization (EM) algorithm to describe background counts of our CCD
 at the pixel level. Under the assumption of Gaussian distributed counts per pixel, 
 the algorithm learns the parameters of a Gaussian Mixture Model (GMM) from 
 the sampled background data via Bayesian inference. Calculated distributions by GMM
-algorithm on the background data of a randomly selected pixel for 5000 shots and the normalized
-histograms of the actual counts at various exposure times are shown in Figures
-\ref{fig:BGofRandomPixelasIntTimesFits100ms},\ref{fig:BGofRandomPixelasIntTimesFits500ms},
-\ref{fig:BGofRandomPixelasIntTimesFits1000ms}, and \ref{fig:BGofRandomPixelasIntTimesFits2000ms}.
+algorithm on the background data of a randomly selected pixel for 5000 shots and the normalized histograms of the actual counts at various exposure times are shown 
+in Figures
+\ref{fig:BGofRandomPixelasIntTimesFits100ms},\ref{fig:BGofRandomPixelasIntTimesFits500ms}, \ref{fig:BGofRandomPixelasIntTimesFits1000ms}, and \ref{fig:BGofRandomPixelasIntTimesFits2000ms}.
 
 \begin{figure}[H]
 	\centering
@@ -153,26 +153,29 @@ sample sizes of 100 or larger for at least two decades in exposure times
 
 \subsubsection{Fluorescent background removal}\label{subsubsec:fluorecentBGMethod}
 Studies on the PL emission of NV defects can be divided into main groups in terms of
-the material used. First group is the bulk experiments which utilizes a solid piece of 
-diamond with desired defect densities. The second group nano or micro diamond, depending
-on the experiment, embedded in a solid or liquid media. Although the optical measurement
-systems in these experiments spatially filter most of the emission from the environment,
-some fluorescence couple and contaminate the PL spectra in this group of experiments. 
+the material used. First group is the bulk experiments which utilizes a solid piece of diamond with desired defect densities. The second group nano or micro diamond, 
+depending on the experiment, embedded in a solid or liquid media. Although the 
+optical measurement systems in these experiments spatially filter most of the 
+emission from the environment, some fluorescence couple and contaminate the PL 
+spectra in this group of experiments. 
 
-The essential difference between the dark background\ref{subsubsec:darkBGMethod} and the
-fluorescent background is that while the counts from the former follow a Gaussian 
-distribution, counts from the latter follows Poisson distibution. In other words, the
-total background in a PL measurement is composed of counts in each pixel drawn from
-statistical distribution which is the convolution of a Gaussian and a Poissonian. Since
-there is no analytical expression for this distribution, we facilitate an approximation
-for cleaning up the PL data. In our method, we first define the dark 
-background as explained in Section\ref{subsubsec:darkBGMethod}, then we remove the mean 
-counts from the PL data taken in the absence of NV defects at the pixel level. The
-remaining counts at each pixel are supposed to be emitted by the environment. We sample
-these counts to find out the parameters describing their distribution at pixel level.
-In this analysis, we use Poisson Mixtures instead of GMM.
+The essential difference between the dark background\ref{subsubsec:darkBGMethod} 
+and the fluorescent background is that while the counts from the former follow a 
+Gaussian distribution, counts from the latter follows Poisson distibution. In other 
+words, the total background in a PL measurement is composed of counts in each pixel 
+drawn from statistical distribution which is the convolution of a Gaussian and a 
+Poissonian. Since there is no analytical expression for this distribution, we 
+facilitate an approximation for cleaning up the PL data. In our method, we first 
+define the dark background as explained in Section\ref{subsubsec:darkBGMethod}, 
+then we remove the mean counts from the PL data taken in the absence of NV defects 
+at the pixel level. The remaining counts at each pixel are supposed to be emitted 
+by the environment. We sample these counts to find out the parameters describing 
+their distribution at pixel level. In this analysis, we use Poisson Mixtures 
+instead of GMM.
 
 \subsection{CW-ODMR measurement and calculation of parameters}
+I don't know what to say here!!!
+\subsubsection{Cleaning up NV$^{0}$ contribution}
 In the context of fluorescence, intersystem crossing (ISC) refers to 
 non-emissive transitions pathways that the emitter goes through to return from the 
 excited state to its ground state. It is known that the NV centers' excited state 
@@ -184,38 +187,97 @@ It should also be noted that there are no reported bleaching pathways for NV dia
 Hence, in contrast to typical fluorophores, ISC creates blinking but the defect 
 emission does not stop by a chemical transition. 
 
-Application of microwave field (MW) to NV defects is a well-known method for manipulating
-the relative populations of electrons in $m_{s} = 0$ and $m_{s} = \pm 1$ states. When 
-the applied MW field resonates with the defect centers' frequency, it increases the 
-electron population ion $m_{s} = \pm 1$ states, so it promotes ISC and reduce the 
-PL intensity. In other words, one can monitor PL intensities of NV defects as a 
-function of applied MW field frequencies and observe the ratiometric reduction around 
-the resonance frequency. The ratiometric change in PL called the \textbf{ODMR contrast}. 
+Application of microwave field (MW) to NV defects is a well-known method for manipulating the relative populations of electrons in $m_{s} = 0$ and 
+$m_{s} = \pm 1$ states. When the applied MW field resonates with the defect 
+centers' frequency, it increases the electron population ion $m_{s} = \pm 1$ 
+states, so it promotes ISC and reduce the PL intensity. In other words, one can 
+monitor PL intensities of NV defects as a function of applied MW field frequencies 
+and observe the ratiometric reduction around the resonance frequency. The 
+ratiometric change in PL called the \textbf{ODMR contrast}. 
 
 In diamond, individual NV defects can be in either of two charge states, neutral 
-NV$^{0}$ and NV$^{-}$, with the ability of conversion to one another. Since the 
-emission spectra of these states overlap, they both contribute the PL of a diamond 
-sample. On the other hand, it has been shown that only NV$^{-}$ is sensitive to
-applied MW field.
+NV$^{0}$ and NV$^{-}$. It has been shown that conversion between these states 
+occur by light stimulation, and any ensemble of defects have both charge state
+populations[REF HERE]. It is also known that the emission spectra of both states 
+overlap[REF HERE]. Therefore depending on the excitation wavelength, 
+both charge states contribute to the typical PL signal from a diamond sample[REF 
+HERE] \ref{fig:rawNVEmission}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[angle=0,origin=c,width =
+	 0.8\linewidth]{Section_ODMR/Figures/rawSpectraNVdefects.png}
+	\caption{Emission from ensemble of NV defects by 450nm excitation 
+		(blue), and by 532nm excitation (green).}
+	\label{fig:rawNVEmission}
+\end{figure}
+
+Among NV$^{0}$ and NV$^{-}$, only the latter is reported to be sensitive
+to the applied MW field[REF HERE]. This brings the challenge of eliminating
+the contribution of NV$^{0}$ defects to the PL data. One method to achieve
+this is the excitation of defects by a light source around the ZPL line of
+NV$^{-}$ defects which is around 638nm [REF HERE]. As an alternative, 
+excitation of NV ensemble by a light source with the wavelength around 450nm
+results in a PL of essentially NV$^{0}$ defects. That allows removal of 
+NV$^{0}$ contribution from spectra of both types of defects via simple 
+scaling \ref{fig:cleanedUpSpectraNVdefects}. Here the scaling can be found by 
+the comparison of spectra in the range from 560nm to 595nm [REF HERE].
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[angle=0,origin=c,width =
+	0.8\linewidth]{Section_ODMR/Figures/cleanedUpSpectraNVdefects.png}
+	\caption{Emission from ensemble of NV defects by 532nm excitation 
+		(green), scaled emission by 450nm excitation (blue), cleaned up
+		NV$^{-}$ emission (red). Red shadowed area indicates the region
+		of spectra used in the scaling.}
+	\label{fig:cleanedUpSpectraNVdefects}
+\end{figure}
+
+Since ODMR is the ratiometric change in the PL of NV$^{-}$, it has to take
+into consideration of all emission associated with this particular defect.
+This translates into the following representation of ODMR based on a PL 
+data acquired by a spectrometer;
 
 
-the is The PL of NV centers in diamond is 
+\begin{equation}
+	ODMR = \frac{\sum\limits_{i=\lambda_{min}}^{\lambda_{max}} PL(\lambda_{i})}{max({\sum\limits_{i=\lambda_{min}}^{\lambda_{max}} PL(\lambda_{i})})}
+\label{eq:ODMREquation}
+\end{equation}
 
-Continuous-wave ODMR is an ODMR method which 
+In our knowledge the eq.\ref{eq:ODMREquation} is not given explicitly in 
+the literature, but it is mentioned in a handful places [REF HERE!].
+The effect of the removal of NV$^{0}$ contribution is shown in
+Fig\ref{fig:ODMRBeforeAfterCleanUP}. In the figure, ODMR is calculated 
+with and without NV$^{0}$ contribution using $\lambda_{min}=605$nm and 
+$\lambda_{max}=885$nm.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[angle=0,origin=c,width =
+	1.0\linewidth]{Section_ODMR/Figures/ODMRAndCleanedUpODMR.png}
+	\caption{\textbf{Left} is the PL from ensemble of NV defects by 532nm
+		excitation with (green) and without (red) NV$^{0}$ contribution. 
+		Shaded area shows the ODMR calculation limits. \textbf{Right} is the 
+		calculated ODMR from same color spectra.}
+	\label{fig:ODMRBeforeAfterCleanUP}
+\end{figure}
 
-%\ref{subsec:dataAcquisition}
-Since ODMR method relies on the observation of changes in the PL emission 
-spectra of the target material defects, it requires either a spectrometer 
-or a photon counting unit like PMT or APD. Our setup utilizes a relatively 
-low-profile and low-cost spectrometer from ASEQ Instruments[ref here!!] for
-the collection of PL emission. The PL emission from NV diamond is basically  
-coupled in to the spectrometer through an optical fiber as it was shown in 
-Figure\ref{fig:ConfocalReflectingMicroscopeFull}. This is the raw PL data 
-which depending on the setup includes dark background counts produced in the
-detector chip, fluorescence background emission produced by the buffer media
-where the actual sample resides, and the actual PL emission from the target
-material, here NV defects in the diamond. Identification of these emissions 
-from different sources and isolation of the PL from NV defects are imperative
-for proper quantification ODMR data.
+\subsubsection{Correction for laser fluctuations and sample heating}
+AAAAA
+
+%%\ref{subsec:dataAcquisition}
+%Since ODMR method relies on the observation of changes in the PL emission 
+%spectra of the target material defects, it requires either a spectrometer 
+%or a photon counting unit like PMT or APD. Our setup utilizes a relatively 
+%low-profile and low-cost spectrometer from ASEQ Instruments[ref here!!] for
+%the collection of PL emission. The PL emission from NV diamond is basically  
+%coupled in to the spectrometer through an optical fiber as it was shown in 
+%Figure\ref{fig:ConfocalReflectingMicroscopeFull}. This is the raw PL data 
+%which depending on the setup includes dark background counts produced in the
+%detector chip, fluorescence background emission produced by the buffer media
+%where the actual sample resides, and the actual PL emission from the target
+%material, here NV defects in the diamond. Identification of these emissions 
+%from different sources and isolation of the PL from NV defects are imperative
+%for proper quantification ODMR data.
 
